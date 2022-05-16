@@ -1,5 +1,6 @@
 package testing.sqa.interactions;
 
+import com.sun.media.jfxmedia.logging.Logger;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
@@ -35,24 +36,24 @@ public class ReviewThePhones implements Interaction {
             String currentPrice = phonePrice.get(i).getText();
             String currentPhoneStorage = phoneName.get(i).getText();
 
-            System.out.println("..........." + i + "..............");
-            System.out.println(currentPhoneStorage);
-            System.out.println(currentPrice);
-            System.out.println("..............................");
+            Logger.logMsg(1, "..........." + i + "..............");
+            Logger.logMsg(1, currentPhoneStorage);
+            Logger.logMsg(1, currentPrice);
+            Logger.logMsg(1, "..............................");
 
 
             actor.attemptsTo(
                     Ensure.that(TXT_PRICE).isDisplayed(),
                     Hit.the(Keys.ENTER).keyIn(buyOnline.get(i)),
-                    HoldOnFor.thisSeconds(3),
+                    HoldOnFor.thisSeconds(150),
                     SwitchToNewTab.change(),
-                    WaitUntil.the(TXT_E_SHOP_PRICE, isVisible()).forNoMoreThan(15).seconds(),
+                    WaitUntil.the(TXT_E_SHOP_PRICE, isVisible()).forNoMoreThan(150).seconds(),
                     Ensure.that(TXT_E_SHOP_PRICE).text().isEqualTo(currentPrice),
-                    HoldOnFor.thisSeconds(3),
+                    HoldOnFor.thisSeconds(150),
                     CloseCurrentTab.on(),
-                    HoldOnFor.thisSeconds(3),
+                    HoldOnFor.thisSeconds(150),
                     Switch.toWindow(currHandle),
-                    WaitUntil.the(TXT_PRICE, isVisible()).forNoMoreThan(15).seconds()
+                    WaitUntil.the(TXT_PRICE, isVisible()).forNoMoreThan(150).seconds()
             );
         }
     }

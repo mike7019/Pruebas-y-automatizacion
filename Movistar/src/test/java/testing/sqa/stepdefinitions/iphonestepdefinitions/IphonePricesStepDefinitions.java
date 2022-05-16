@@ -29,8 +29,7 @@ public class IphonePricesStepDefinitions {
     public void brandonClicksOnPhoneWebSiteAndClicksOnlinePurchaseBotton(String phoneWebsite) {
 
         OnStage.theActorInTheSpotlight().attemptsTo(
-                GoToPhonePage.onThePage(phoneWebsite),
-                ReviewThePhones.onThePage()
+                GoToPhonePage.onThePage(phoneWebsite)
         );
 
 
@@ -39,6 +38,11 @@ public class IphonePricesStepDefinitions {
     @Then("^Brandon visualize the price on the eShop matches with price checked on the price$")
     public void brandonVisualizeThePriceOnTheEShopMatchesWithPriceCheckedOnTheHttpsMovistarComCoCelulares() {
 
+        OnStage.theActorInTheSpotlight()
+                .attemptsTo(
+                        ReviewThePhones.onThePage()
+                );
     }
+
 
 }

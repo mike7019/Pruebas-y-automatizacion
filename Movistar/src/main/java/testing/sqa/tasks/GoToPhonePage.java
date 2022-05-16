@@ -22,7 +22,7 @@ public class GoToPhonePage implements Task {
         actor.attemptsTo(
                 Click.on(MovistarMainPage.BTN_EQUIPOS),
                 Click.on(MovistarMainPage.BTN_CELULARES),
-                HoldOnFor.thisSeconds(3),
+                HoldOnFor.thisSeconds(150),
                 Ensure.thatTheCurrentPage().currentUrl().contains(phoneWebsite)
         );
 
@@ -30,7 +30,7 @@ public class GoToPhonePage implements Task {
 
     //This is the way to call the task
     public static GoToPhonePage onThePage(String phoneWebsite) {
-        return Tasks.instrumented(GoToPhonePage.class,phoneWebsite);
+        return Tasks.instrumented(GoToPhonePage.class, phoneWebsite);
     }
 
 

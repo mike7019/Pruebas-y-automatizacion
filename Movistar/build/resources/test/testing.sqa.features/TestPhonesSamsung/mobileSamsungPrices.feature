@@ -1,15 +1,15 @@
-Feature: Review on the Iphone module
+Feature: Review on the Samsung module
 
-  Brandon reviews the Iphone section
+  Brandon reviews the Samsung section
 
-  @iphoneSection
+  @samsungSection
   Scenario Outline: Brandon opens the website and reviews the <name> lists on the equipos tab
 
-    Given that Brandon goes to <website> and choose Iphone and validates each prices
+    Given that Brandon goes to <mainWebSite>
 
-    When Brandon clicks on Online Purchase botton and goes to the eShop page
+    When Brandon clicks on <phoneWebSite> validates the correct site, selects Samsung and clicks Online Purchase botton
 
-    Then Brandon visualize the price on the eShop matches with price checked on the <website>
+    Then Brandon visualize the Samsung price on the eShop matches with price checked on the price
     Examples:
-      | name  | website                           |
-      | iphone | https://movistar.com.co/celulares |
+      | name     | mainWebSite              | phoneWebSite                                   |
+      | motorola | https://movistar.com.co/ | https://movistar.com.co/celulares?cell=samsung |

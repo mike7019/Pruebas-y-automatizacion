@@ -142,7 +142,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-05-2022 15:30</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-05-2022 14:45</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -157,8 +157,8 @@
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div class="test-count-title">
-                                    1 test scenarios 
-                                        (including 1 rows of test data)
+                                    5 test scenarios 
+                                        (including 5 rows of test data)
                                      |
                                         <a href="results.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                         title="Download CSV"></i></a>
@@ -191,10 +191,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '60%', ' ', '40%', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 3}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 2}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -249,12 +249,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
-                                                                                    class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
-                                                                <td class="automated-stats">1</td>
-                                                                <td class="automated-stats">100%</td>
+                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -278,24 +277,25 @@
                                                                 <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
-                                                                        <td colspan="3"><i
-                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                        <td colspan="3"><a
+                                                                                    href="b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html"><i
+                                                                                        class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                         </td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
-                                                                        <i
-                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
+                                                                        <a href="da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html"><i
+                                                                                    class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                     </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                <td class="automated-stats">3</td>
+                                                                <td class="automated-stats">60%</td>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
-                                                                        <i
-                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
+                                                                        <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html"><i
+                                                                                    class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
                                                                     </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                <td class="automated-stats">2</td>
+                                                                <td class="automated-stats">40%</td>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
                                                                         <i
@@ -306,7 +306,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">1</td>
+                                                                <td class="automated-stats">5</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -328,11 +328,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td> 4m 5s</td>
-                                                                <td>245ms</td>
-                                                                <td> 4m 3s</td>
-                                                                <td> 4m 3s</td>
-                                                                <td> 4m 5s</td>
+                                                                <td> 8m 38s</td>
+                                                                <td> 7m 45s</td>
+                                                                <td>11ms</td>
+                                                                <td> 3m 28s</td>
+                                                                <td> 1m 43s</td>
                                                             </tr>
                                                             </tbody>
                                                         </table>
@@ -362,17 +362,105 @@
                                                                                         <a href="eb439ecbd18d9189b40b4fb1bb103964a714a9c518b467bb41be84e11e0f83ba.html">Review on the Iphone module</a>
                                                                                 </td>
                                                                                 <td>1</td>
-                                                                                <td>100%</td>
+                                                                                <td>0%</td>
                                                                                 <td>
-                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                        <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
                                                                                 </td>
                                                                                 <td>
                                                                                     <div class="progress">
                                                                                             <div class="progress-bar"
                                                                                                  role="progressbar"
-                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 style="width: 100%; background-color: darkorange"
                                                                                                  aria-valuenow="1"
-                                                                                                 title="100% success"
+                                                                                                 title="100% error"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="2d65a5cec26198851b6b9200db757adf6c67e3e3287d5a4790e4657898781ee7.html">Review on the Motorola module</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>0%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: darkorange"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% error"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="5241da109ef130fb98ee1cccae4ef548af0e9cdc8331044a036234b51614a30c.html">Review on the Samsung module</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>0%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #f8001f"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% failure"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="67c02dddba61dee7ef91ba4416337b599b678b8dc8cbed40ea550a4547deda6b.html">Review on the Vivo module</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>0%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #f8001f"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% failure"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="1305bf2a891cd5d0959b4a1b0fdd7dd1837277949af1c026c9c9da797d772d30.html">Review on the Xiaomi module</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>0%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #f8001f"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% failure"
                                                                                                  aria-valuemin="0"
                                                                                                  aria-valuemax="100">
                                                                                             </div>
@@ -384,6 +472,83 @@
                                                         </div>
                                                     </div>
 
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <h3>Test Failure Overview</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-6">
+                                                            <h4>Most Frequent Failures</h4>
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="error-color top-list-title">
+                                                                            <a href="a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> Assertion error</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">4</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="error-color top-list-title">
+                                                                            <a href="2c9a9c3542f635796f44652e3b0e203e8eb95bfdaa72c562e0dfe390b26a8ac0.html"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> Web driver exception</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">1</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="col-sm-6">
+                                                            <h4>Most Unstable Features</h4>
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="failure-color top-list-title"><a
+                                                                                    href="#">Review on the Iphone module</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">100%</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="failure-color top-list-title"><a
+                                                                                    href="#">Review on the Motorola module</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">100%</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="failure-color top-list-title"><a
+                                                                                    href="#">Review on the Samsung module</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">100%</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="failure-color top-list-title"><a
+                                                                                    href="#">Review on the Vivo module</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">100%</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="failure-color top-list-title"><a
+                                                                                    href="#">Review on the Xiaomi module</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">100%</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
 
                                                     <div class="row">
                                                         <div class="col-sm-12">
@@ -394,8 +559,28 @@
                                                                         <div>
                                                                                 <a href="f7fd4df9146e19105388d629b94ec2f90b4006b06a34b578e1b58bca7661e9b9.html">
                                                                         <span class="badge"
-                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                              style="background-color:darkorange; margin:1em;padding:4px;"><i
                                                                                     class="fa fa-tag"></i> Iphonesection&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="145b45de99308fc982d229a9ac65fc025576e127fb372d0daf4d35d7a0a01937.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:darkorange; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Motorolasection&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="439243ca9f0d3f052ea77fb85ca64a95e6ccc199c225d7adf93e5a66786b38c3.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Samsungsection&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="24c0b8e0ef702a6a9a5789eb517d39924f0034e78107f52468c340601932e859.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Vivosection&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="226cb19118504ec9b815dfdc0e685c6a1e937e914617e3ca4962b3dc7ea1e0bd.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Xiaomisection&nbsp;&nbsp;&nbsp;1</span>
                                                                                 </a>
                                                                         </div>
                                                                     </div>
@@ -406,8 +591,28 @@
                                                                         <div>
                                                                                 <a href="eb439ecbd18d9189b40b4fb1bb103964a714a9c518b467bb41be84e11e0f83ba.html">
                                                                         <span class="badge"
-                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                              style="background-color:darkorange; margin:1em;padding:4px;"><i
                                                                                     class="fa fa-tag"></i> Testphonesiphone/Review On The Iphone Module&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="2d65a5cec26198851b6b9200db757adf6c67e3e3287d5a4790e4657898781ee7.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:darkorange; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Testphonesmotorola/Review On The Motorola Module&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="5241da109ef130fb98ee1cccae4ef548af0e9cdc8331044a036234b51614a30c.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Testphonessamsung/Review On The Samsung Module&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="67c02dddba61dee7ef91ba4416337b599b678b8dc8cbed40ea550a4547deda6b.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Testphonesvivo/Review On The Vivo Module&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="1305bf2a891cd5d0959b4a1b0fdd7dd1837277949af1c026c9c9da797d772d30.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#f8001f; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> Testphonesxiaomi/Review On The Xiaomi Module&nbsp;&nbsp;&nbsp;1</span>
                                                                                 </a>
                                                                         </div>
                                                                     </div>
@@ -435,7 +640,7 @@
                                                                 </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <tr class="scenario-result SUCCESS">
+                                                                    <tr class="scenario-result ERROR">
                                                                         <td>
                                                                                 <a href="eb439ecbd18d9189b40b4fb1bb103964a714a9c518b467bb41be84e11e0f83ba.html">Review on the Iphone module</a>
                                                                         </td>
@@ -444,10 +649,70 @@
                                                                                 (1 example)
                                                                         </td>
                                                                         <td>3</td>
-                                                                        <td>15:24:47</td>
-                                                                        <td>04:05</td>
-                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                    style="display:none">SUCCESS</span>
+                                                                        <td>14:36:58</td>
+                                                                        <td>03:29</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
+                                                                                    style="display:none">ERROR</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result ERROR">
+                                                                        <td>
+                                                                                <a href="2d65a5cec26198851b6b9200db757adf6c67e3e3287d5a4790e4657898781ee7.html">Review on the Motorola module</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="5ef03a46b75e826bb01dc008eae0338614a4544c2b489673c384021a72fcf82c.html">Brandon opens the website and reviews the motorola lists on the equipos tab</a>
+                                                                                (1 example)
+                                                                        </td>
+                                                                        <td>3</td>
+                                                                        <td>14:40:32</td>
+                                                                        <td>01:34</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
+                                                                                    style="display:none">ERROR</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="5241da109ef130fb98ee1cccae4ef548af0e9cdc8331044a036234b51614a30c.html">Review on the Samsung module</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="6219134e319bfca80a535c2528bc428c63f75cf374268b522f1976250bfce25e.html">Brandon opens the website and reviews the motorola lists on the equipos tab</a>
+                                                                                (1 example)
+                                                                        </td>
+                                                                        <td>3</td>
+                                                                        <td>14:42:07</td>
+                                                                        <td>01:25</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="67c02dddba61dee7ef91ba4416337b599b678b8dc8cbed40ea550a4547deda6b.html">Review on the Vivo module</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="92f8b8f5a4daa2b9da77ade51128eb9e3440c91707720623a23e08af9741106d.html">Brandon opens the website and reviews the vivo lists on the equipos tab</a>
+                                                                                (1 example)
+                                                                        </td>
+                                                                        <td>3</td>
+                                                                        <td>14:43:35</td>
+                                                                        <td>01:06</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="1305bf2a891cd5d0959b4a1b0fdd7dd1837277949af1c026c9c9da797d772d30.html">Review on the Xiaomi module</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="9823fcf96c1a752aa9a7c3f3069e5ee5aa5c343d4c422c425614364579b225de.html">Brandon opens the website and reviews the Xiaomi lists on the equipos tab</a>
+                                                                                (1 example)
+                                                                        </td>
+                                                                        <td>3</td>
+                                                                        <td>14:44:44</td>
+                                                                        <td>01:02</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>

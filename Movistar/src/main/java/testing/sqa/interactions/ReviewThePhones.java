@@ -1,6 +1,5 @@
 package testing.sqa.interactions;
 
-import com.sun.media.jfxmedia.logging.Logger;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
@@ -36,10 +35,10 @@ public class ReviewThePhones implements Interaction {
             String currentPrice = phonePrice.get(i).getText();
             String currentPhoneStorage = phoneName.get(i).getText();
 
-            Logger.logMsg(1, "..........." + i + "..............");
-            Logger.logMsg(1, currentPhoneStorage);
-            Logger.logMsg(1, currentPrice);
-            Logger.logMsg(1, "..............................");
+            System.out.println("..........." + i + "..............");
+            System.out.println(currentPhoneStorage);
+            System.out.println(currentPrice);
+            System.out.println("..............................");
 
 
             actor.attemptsTo(

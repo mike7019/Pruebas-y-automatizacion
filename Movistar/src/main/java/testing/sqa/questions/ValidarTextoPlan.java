@@ -2,15 +2,15 @@ package testing.sqa.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import testing.sqa.interactions.SwitchToFrame;
 
-import static testing.sqa.userinterface.MovistarPortabilidadPospagoPage.*;
+import static testing.sqa.userinterface.MovistarEquiposRenovarPage.*;
+
 
 public class ValidarTextoPlan  implements Question<String> {
 
     @Override
     public String answeredBy(Actor actor) {
-        return LBL_PLAN_POSPAGO_VALIDAR.of().resolveFor(actor).getText();
+        return TXT_PRICE.resolveFor(actor).getAttribute("href");
     }
 
     public static Question<String> value() {

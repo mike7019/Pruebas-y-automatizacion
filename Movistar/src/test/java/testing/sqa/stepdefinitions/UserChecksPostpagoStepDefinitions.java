@@ -25,7 +25,7 @@ public class UserChecksPostpagoStepDefinitions {
         OnStage.setTheStage(new OnlineCast());
     }
 
-    @Given("^that Brandon opens the website (.*) and lists tcorel he available plans$")
+    @Given("^that Brandon opens the website (.*) and lists the available plans$")
     public void thatBrandonOpensTheWebsiteAndListsTheAvailablePlans(String website) {
 
         //here the actor opens the website and clicks on login

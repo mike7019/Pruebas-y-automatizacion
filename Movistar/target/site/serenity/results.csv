@@ -1,2 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Review on the Iphone module","Brandon opens the website and reviews the iphone lists on the equipos tab","SUCCESS","2022-05-16T15:24:47.696-05:00[America/Bogota]","0.0","245.05"
+"Review on the Iphone module","Brandon opens the website and reviews the iphone lists on the equipos tab","ERROR","2022-05-17T14:36:58.692-05:00[America/Bogota]","0.0","209.46"
+"Review on the Motorola module","Brandon opens the website and reviews the motorola lists on the equipos tab","ERROR","2022-05-17T14:40:32.175-05:00[America/Bogota]","0.0","94.76"
+"Review on the Samsung module","Brandon opens the website and reviews the motorola lists on the equipos tab","FAILURE","2022-05-17T14:42:07.195-05:00[America/Bogota]","0.0","85.18"
+"Review on the Vivo module","Brandon opens the website and reviews the vivo lists on the equipos tab","FAILURE","2022-05-17T14:43:35.866-05:00[America/Bogota]","0.0","66.66"
+"Review on the Xiaomi module","Brandon opens the website and reviews the Xiaomi lists on the equipos tab","FAILURE","2022-05-17T14:44:44.143-05:00[America/Bogota]","0.0","62.14"

@@ -30,6 +30,8 @@ public class ReviewThePhones implements Interaction {
         List<WebElementFacade> phonePrice = MovistarEquiposRenovarPage.TXT_PRICE.resolveAllFor(actor);
         List<WebElementFacade> phoneName = MovistarEquiposRenovarPage.TXT_PHONE_NAME.resolveAllFor(actor);
 
+
+
         for (int i = 0; i < phonePrice.size(); i++) {
 
             String currentPrice = phonePrice.get(i).getText();

@@ -27,8 +27,8 @@ public class GoToMotorolaPhonePage implements Task {
                 Click.on(MovistarMainPage.BTN_EQUIPOS),
                 Click.on(MovistarMainPage.BTN_CELULARES),
                 HoldOnFor.thisSeconds(150),
-                Scroll.to(MovistarEquiposRenovarPage.BTN_ALCATEL_BRAND),
-                JavaScriptClick.on(MovistarEquiposRenovarPage.BTN_ALCATEL_BRAND),
+                Scroll.to(MovistarEquiposRenovarPage.BTN_MOTO_BRAND),
+                JavaScriptClick.on(MovistarEquiposRenovarPage.BTN_MOTO_BRAND),
                 Ensure.thatTheCurrentPage().currentUrl().contains(phoneWebsite)
         );
 

@@ -15,10 +15,6 @@ import static testing.sqa.userinterface.MovistarPortabilidadPospagoPage.LBL_PLAN
 
 public class UserGoesToPostpago implements Task {
 
-    private String user;
-    private String email;
-    private String password;
-    private String confPass;
 
 
     //This is the way to call the task

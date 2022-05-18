@@ -12,4 +12,4 @@ Feature: Review on the Samsung module
     Then Brandon visualize the Samsung price on the eShop matches with price checked on the price
     Examples:
       | name     | mainWebSite              | phoneWebSite                                   |
-      | motorola | https://movistar.com.co/ | https://movistar.com.co/celulares?cell=samsung |
+      | samsung | https://movistar.com.co/ | https://movistar.com.co/celulares?cell=samsung |

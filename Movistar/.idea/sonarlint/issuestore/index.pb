@@ -203,12 +203,6 @@ i
 9src/main/java/testing/sqa/interactions/SwitchToFrame.java,c\e\cecd7f240b825ea89644c9849359970e77c957c5
 j
 :src/main/java/testing/sqa/interactions/SwitchToNewTab.java,8\d\8d89838abfd8832c87a51b7f21d2e8521d9ca002
-e
-5src/main/java/testing/sqa/tasks/UserChoosePhones.java,8\2\8291267c8a564363b7887fc222be475084937e73
-m
-=src/main/java/testing/sqa/tasks/UserChoosesPostpagoPlans.java,5\d\5d776c55b907ace1873be12a94beeac2951983d6
-^
-.src/main/java/testing/sqa/models/UserData.java,2\2\22dbdd1ad6a5708608b85f19f3c628f97a4bae6e
 j
 :src/main/java/testing/sqa/questions/UserValidatesData.java,7\a\7a24eba1f6c5af0b29e460d0ce97902ee6de21b5
 m

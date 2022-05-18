@@ -10,6 +10,7 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
 import testing.sqa.drivers.DriverRemoteBrowser;
 import testing.sqa.interactions.ReviewThePhones;
 import testing.sqa.tasks.GoToHonorPhonePage;
+import testing.sqa.tasks.GoToHuaweiPhonePage;
 
 public class HuaweiPricesStepDefinitions {
 
@@ -31,7 +32,7 @@ public class HuaweiPricesStepDefinitions {
     public void brandonClicksOnPhoneWebSiteValidatesTheCorrectSiteSelectsHuaweiAndClicksOnlinePurchaseBotton(String phoneWebsite) {
 
         OnStage.theActorInTheSpotlight().attemptsTo(
-                GoToHonorPhonePage.onThePage(phoneWebsite)
+                GoToHuaweiPhonePage.onThePage(phoneWebsite)
         );
 
 

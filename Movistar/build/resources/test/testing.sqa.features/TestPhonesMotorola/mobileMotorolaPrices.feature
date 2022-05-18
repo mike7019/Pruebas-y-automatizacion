@@ -11,5 +11,5 @@ Feature: Review on the Motorola module
 
     Then Brandon visualize the Motorola price on the eShop matches with price checked on the price
     Examples:
-      | name   | mainWebSite              | phoneWebSite                      |
+      | name     | mainWebSite              | phoneWebSite                                    |
       | motorola | https://movistar.com.co/ | https://movistar.com.co/celulares?cell=motorola |

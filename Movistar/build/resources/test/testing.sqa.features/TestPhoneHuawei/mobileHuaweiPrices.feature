@@ -12,4 +12,4 @@ Feature: Review on the Huawei module
     Then Brandon visualize the Huawei price on the eShop matches with price checked on the price
     Examples:
       | name    | mainWebSite              | phoneWebSite                                   |
-      | Alcatel | https://movistar.com.co/ | https://movistar.com.co/celulares?cell=huawei |
+      | Huawei | https://movistar.com.co/ | https://movistar.com.co/celulares?cell=huawei |

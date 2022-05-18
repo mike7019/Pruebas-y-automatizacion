@@ -168,7 +168,7 @@
             <a href="#"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-05-2022 14:36</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-05-2022 16:41</span>
     <br style="clear:left"/>
 </div>
 
@@ -219,10 +219,10 @@
                                             </div>
                                             <script>
 
-                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '60%', ' ', '40%', ' ', ' ', ' '];
+                                                var labels = ['11%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '89%', ' ', ' ', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 3}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 2}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 8}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -259,11 +259,12 @@
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                                    <td class="aggregate-result-count"><i
-                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
+                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                <td class="automated-stats">0</td>
-                                                <td class="automated-stats"> </td>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">11%</td>
                                             </tr>
                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -298,15 +299,15 @@
                                                                         <a href="da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html"><i
                                                                                 class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                     </td>
-                                                <td class="automated-stats">3</td>
-                                                <td class="automated-stats">60%</td>
+                                                <td class="automated-stats">8</td>
+                                                <td class="automated-stats">89%</td>
                                             <tr>
-                                                                    <td class="aggregate-result-count indented-error-category">
-                                                                        <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html"><i
-                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
-                                                                    </td>
-                                                <td class="automated-stats">2</td>
-                                                <td class="automated-stats">40%</td>
+                                                                <td class="aggregate-result-count indented-error-category">
+                                                                    <i
+                                                                            class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
+                                                                </td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -317,7 +318,7 @@
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">5</td>
+                                                <td class="automated-stats">9</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -339,11 +340,11 @@
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td> 8m 38s</td>
-                                                        <td> 7m 45s</td>
-                                                        <td>11ms</td>
-                                                        <td> 3m 28s</td>
-                                                        <td> 1m 43s</td>
+                                                        <td> 7m 21s</td>
+                                                        <td> 7m 6s</td>
+                                                        <td>21s</td>
+                                                        <td> 1m 34s</td>
+                                                        <td>49s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -367,7 +368,55 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result ERROR">
+                                                <tr class="scenario-result FAILURE">
+                                                    <td>
+                                                            <a href="65b2bbab36ff05cf67060d19c18d41aa8278be4117441f43dc56fe3415315c9e.html">Review on the Huawei module</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="b0b18cb8db1e707b46e4b1ab9d91ae9c6efb9fa1037e7e246f831062eafe7aff.html">Brandon opens the website and reviews the Huawei lists on the equipos tab</a>
+                                                               (1 example)
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>16:43:29</td>
+                                                    <td>00:30</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                style="display:none">FAILURE</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result FAILURE">
+                                                    <td>
+                                                            <a href="c2041d70af7ecd0837ebcc0a536718952ea16ff5311a5611f12e770d31507206.html">Review on the Alcatel module</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="6838c417b200f728e1d073ecb716b2ba593d3c32cc32d1943b18f521d4262742.html">Brandon opens the website and reviews the Alcatel lists on the equipos tab</a>
+                                                               (1 example)
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>16:41:48</td>
+                                                    <td>00:36</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                style="display:none">FAILURE</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="70ad0fa17d61b18494a4d95b387342d379f27129733db668325ec6f39584f3cc.html">Review on the Honor module</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="d7bf880390b6ee169ff7c0a1040b69607a7bcba7caa9023172ab000de04c2605.html">Brandon opens the website and reviews the Honor lists on the equipos tab</a>
+                                                               (1 example)
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>16:42:29</td>
+                                                    <td>00:57</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result FAILURE">
                                                     <td>
                                                             <a href="eb439ecbd18d9189b40b4fb1bb103964a714a9c518b467bb41be84e11e0f83ba.html">Review on the Iphone module</a>
                                                     </td>
@@ -376,14 +425,14 @@
                                                                (1 example)
                                                     </td>
                                                     <td>3</td>
-                                                    <td>14:36:58</td>
-                                                    <td>03:29</td>
+                                                    <td>16:44:00</td>
+                                                    <td>00:22</td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                style="display:none">ERROR</span>
+                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                style="display:none">FAILURE</span>
                                                     </td>
                                                 </tr>
-                                                <tr class="scenario-result ERROR">
+                                                <tr class="scenario-result FAILURE">
                                                     <td>
                                                             <a href="2d65a5cec26198851b6b9200db757adf6c67e3e3287d5a4790e4657898781ee7.html">Review on the Motorola module</a>
                                                     </td>
@@ -392,11 +441,27 @@
                                                                (1 example)
                                                     </td>
                                                     <td>3</td>
-                                                    <td>14:40:32</td>
-                                                    <td>01:34</td>
+                                                    <td>16:44:23</td>
+                                                    <td>00:44</td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                style="display:none">ERROR</span>
+                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                style="display:none">FAILURE</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result FAILURE">
+                                                    <td>
+                                                            <a href="8e26c00ab68be0784fbe97410813635a5174247a34b23a1de6912c47cf9bcc5a.html">Review on the Nokia module</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="aa10ff4425be1557c2d4920954b44f4590e60779b5190c2f83d62f0f9640953a.html">Brandon opens the website and reviews the Nokia lists on the equipos tab</a>
+                                                               (1 example)
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>16:45:10</td>
+                                                    <td>01:35</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                style="display:none">FAILURE</span>
                                                     </td>
                                                 </tr>
                                                 <tr class="scenario-result FAILURE">
@@ -404,12 +469,12 @@
                                                             <a href="5241da109ef130fb98ee1cccae4ef548af0e9cdc8331044a036234b51614a30c.html">Review on the Samsung module</a>
                                                     </td>
                                                     <td>
-                                                            <a href="6219134e319bfca80a535c2528bc428c63f75cf374268b522f1976250bfce25e.html">Brandon opens the website and reviews the motorola lists on the equipos tab</a>
+                                                            <a href="99e712d0e15dbd8bb81db3a0d070fef062743308228152d949858deb0f55c495.html">Brandon opens the website and reviews the samsung lists on the equipos tab</a>
                                                                (1 example)
                                                     </td>
                                                     <td>3</td>
-                                                    <td>14:42:07</td>
-                                                    <td>01:25</td>
+                                                    <td>16:46:56</td>
+                                                    <td>01:00</td>
                                                     <td>
                                                             <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                 style="display:none">FAILURE</span>
@@ -424,8 +489,8 @@
                                                                (1 example)
                                                     </td>
                                                     <td>3</td>
-                                                    <td>14:43:35</td>
-                                                    <td>01:06</td>
+                                                    <td>16:47:59</td>
+                                                    <td>00:53</td>
                                                     <td>
                                                             <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                 style="display:none">FAILURE</span>
@@ -440,8 +505,8 @@
                                                                (1 example)
                                                     </td>
                                                     <td>3</td>
-                                                    <td>14:44:44</td>
-                                                    <td>01:02</td>
+                                                    <td>16:48:54</td>
+                                                    <td>00:39</td>
                                                     <td>
                                                             <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                 style="display:none">FAILURE</span>

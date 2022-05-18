@@ -6,7 +6,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/testing.sqa.features/testphoneshuawei/mobileHuaweiPrices.feature",
+@CucumberOptions(features = "src/test/resources/testing.sqa.features/testphonehuawei/mobileHuaweiPrices.feature",
         glue = "testing.sqa.stepdefinitions.huaweistepdefinitions",
         snippets = SnippetType.CAMELCASE)
 

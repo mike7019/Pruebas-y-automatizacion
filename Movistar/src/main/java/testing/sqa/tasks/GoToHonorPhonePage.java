@@ -27,8 +27,8 @@ public class GoToHonorPhonePage implements Task {
                 Click.on(MovistarMainPage.BTN_EQUIPOS),
                 Click.on(MovistarMainPage.BTN_CELULARES),
                 HoldOnFor.thisSeconds(150),
-                Scroll.to(MovistarEquiposRenovarPage.BTN_HUAWEI_BRAND),
-                JavaScriptClick.on(MovistarEquiposRenovarPage.BTN_HUAWEI_BRAND),
+                Scroll.to(MovistarEquiposRenovarPage.BTN_HONOR_BRAND),
+                JavaScriptClick.on(MovistarEquiposRenovarPage.BTN_HONOR_BRAND),
                 Ensure.thatTheCurrentPage().currentUrl().contains(phoneWebsite)
         );
 

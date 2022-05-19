@@ -12,13 +12,4 @@ import org.junit.runner.RunWith;
 
 public class MotorolaPriceRunner {
 
-    String name;
-    Double price;
-    Integer quantity;
-
-    public MotorolaPriceRunner(String name, Double price, Integer quantity) {
-        this.name = name;
-        this.price = price;
-        this.quantity = quantity;
-    }
 }

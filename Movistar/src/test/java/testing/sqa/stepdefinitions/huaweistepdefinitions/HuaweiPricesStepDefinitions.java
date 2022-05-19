@@ -9,7 +9,6 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import testing.sqa.drivers.DriverRemoteBrowser;
 import testing.sqa.interactions.ReviewThePhones;
-import testing.sqa.tasks.GoToHonorPhonePage;
 import testing.sqa.tasks.GoToHuaweiPhonePage;
 
 public class HuaweiPricesStepDefinitions {
@@ -18,7 +17,6 @@ public class HuaweiPricesStepDefinitions {
     public void setStage() {
         OnStage.setTheStage(new OnlineCast());
     }
-
 
     @Given("^that Brandon goes to (.*)$")
     public void thatBrandonGoesToMainWebSite(String mainWebSite) {

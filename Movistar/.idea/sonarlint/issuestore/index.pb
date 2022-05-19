@@ -221,10 +221,6 @@ f
 6src/main/java/testing/sqa/tasks/GoToVivoPhonePage.java,d\f\dfa8a18e721815304e4dfde18f9c5dcfef6d54a4
 h
 8src/main/java/testing/sqa/tasks/GoToXiaomiPhonePage.java,b\4\b4da9f772c10b4f1fa362cee90e98e9b18765f5c
-s
-Csrc/test/java/testing/sqa/runners/honorrunnes/HonorPriceRunner.java,a\e\aeb88853f33af983af5c612434e9add5e01dcd07
-z
-Jsrc/test/java/testing/sqa/runners/motorolarunners/MotorolaPriceRunner.java,4\d\4df8d03b1054ab595e4ec55d03aa6ceb50705b6b
 w
 Gsrc/main/java/testing/sqa/userinterface/MovistarEquiposRenovarPage.java,c\c\cc95f9e69b9f8e0b1a53506af133539d27cd9474
 t
@@ -245,14 +241,6 @@ i
 .src/main/java/testing/sqa/models/UserData.java,2\2\22dbdd1ad6a5708608b85f19f3c628f97a4bae6e
 _
 /src/main/java/testing/sqa/models/LoginData.java,a\4\a4aad8768bc3c629accfdaf6ef498c6180619071
-g
-7src/main/java/testing/sqa/interactions/OpenWebSite.java,c\6\c652742ac30b71bd8d73920cad455713578aec61
-Ä
-Psrc/test/java/testing/sqa/stepdefinitions/UserChecksPostpagoStepDefinitions.java,c\9\c962d197ed8fb3d0ad2d9f1a608a931bbc0ecbf4
-é
-^src/test/java/testing/sqa/stepdefinitions/nokiastepdefinitions/NokiaPricesStepDefinitions.java,a\6\a6b7365640d2f69e9960f309be34e47b0d5a0d98
-é
-^src/test/java/testing/sqa/stepdefinitions/honorstepdefinitions/HonorPricesStepDefinitions.java,3\0\3026db5f143e54eb231f57acf611b5af0019bebd
 í
 bsrc/test/java/testing/sqa/stepdefinitions/alcatelstepdefinitions/AlcatelPricesStepDefinitions.java,c\4\c4a4b87eb7ac22f8fb3d33deb028ac4bfe8d7763
 i
@@ -265,8 +253,6 @@ v
 Fsrc/test/java/testing/sqa/runners/xiaomirunners/XiaomiPriceRunner.java,0\3\03bd1df86927f07b96639d3e2326e684d2e600b5
 g
 7src/main/java/testing/sqa/tasks/GoToHonorPhonePage.java,2\b\2b6685cae45ab09019d7d815fb14b9846dfe0c3f
-h
-8src/main/java/testing/sqa/tasks/GoToHuaweiPhonePage.java,b\1\b1a956eb1ee51e0505062ecb06d63fd0aaab6eae
 j
 :src/main/java/testing/sqa/tasks/GoToMotorolaPhonePage.java,9\9\9911e66cc7184fbc5d43db2491282582a1958f5e
 h
@@ -275,8 +261,6 @@ e
 5src/main/java/testing/sqa/tasks/GoToTclPhonePage.java,8\5\85ff42eabe9a9750216f1ce682cdc8fece002d5e
 v
 Fsrc/test/java/testing/sqa/runners/huaweirunners/HuaweiPriceRunner.java,5\3\5311ef8f90af3c819c1371d4cd9f4ac23cd2ab9a
-ê
-`src/test/java/testing/sqa/stepdefinitions/huaweistepdefinitions/HuaweiPricesStepDefinitions.java,a\e\ae1b8908f441b4a62a16770349ca55dac581efc3
 r
 Bsrc/test/java/testing/sqa/runners/opporunners/OppoPriceRunner.java,1\5\1509f8de066a527b558ff9174bae4f2016c824be
 v
@@ -287,27 +271,11 @@ p
 @src/test/java/testing/sqa/runners/tclrunners/TclPriceRunner.java,b\9\b9500cb7d7bff8ee49c65eff51624bcc601d5348
 ä
 Zsrc/test/java/testing/sqa/stepdefinitions/tclstepdefinitions/TclPricesStepDefinitions.java,b\7\b7e8427a67d544ee895f27b59479c35d55f7e766
-c
-3src/main/java/testing/sqa/utils/ExcelDataTable.java,d\c\dc31f10a5b8f03e47b8dace6eeb51b918726d4bc
 õ
 ksrc/test/java/testing/sqa/stepdefinitions/testing.sqa.features.opticfiberstepdefinitions/opticFiber.feature,7\5\75c5a3eb358941ca77c14aedd8472bd1c19f8691
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-P
- target/site/serenity/summary.txt,2\4\24f805f7544b0d7ef191e6a0a652fbb851b6a4ac
-P
- target/site/serenity/results.csv,3\e\3e0959072670a984c415ed6caf876cfc335a5860
-T
-$target/site/serenity/build-info.html,a\b\ab5925e5ec240a6261f6ad65a61e30243d736e1b
-V
-&target/site/serenity/capabilities.html,6\8\681a75fdaaa28785dfe5cfd3ffc6f68161723185
-O
-target/site/serenity/index.html,c\e\ce1d953599e56cfde85da6acfdbbb722b0c73490
 å
 \src/test/java/testing/sqa/stepdefinitions/oppostepdefinitions/OppoPricesStepDefinitions.java,e\c\ec72935a68cd7281130c45f42082673267143d4e
 e
 5src/main/java/testing/sqa/interactions/HoldOnFor.java,e\c\ec7af231be244928b14d2a7d98f5957ec313b370
 f
 6src/main/java/testing/sqa/tasks/GoToOppoPhonePage.java,8\6\867613f1638026915d8726db91874c86caad6e7a
-k
-;src/main/java/testing/sqa/interactions/ReviewThePhones.java,c\4\c401d4734c63e03fe55ebb96b3a066b91ec6574f

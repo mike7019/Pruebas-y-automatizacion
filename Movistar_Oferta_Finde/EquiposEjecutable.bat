@@ -1,0 +1,1 @@
+gradle clean test --tests *testing.sqa.runners.iphonerunners.IphonePriceRunner aggregate --info & cd target/site/serenity & index.html

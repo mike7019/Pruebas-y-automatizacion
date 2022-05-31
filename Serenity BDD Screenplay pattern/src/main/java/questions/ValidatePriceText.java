@@ -3,14 +3,17 @@ package questions;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import testing.sqa.userinterface.MovistarEquiposRenovarPage;
+
 
 import java.util.List;
+
+import static userinterface.UserInterfacePage1.TXT_CURRENT_PRICE;
+
 
 
 public class ValidatePriceText implements Question<String> {
 
-    private int index = 0;
+    private int index;
 
     public ValidatePriceText(int index) {
         this.index = index;
@@ -18,9 +21,9 @@ public class ValidatePriceText implements Question<String> {
 
     @Override
     public String answeredBy(Actor actor) {
-        List<WebElementFacade> phonePrice = MovistarEquiposRenovarPage.TXT_PRICE.resolveAllFor(actor);
-        System.out.println(phonePrice);
-        return phonePrice.get(index).getText();
+        List<WebElementFacade> planBandWidth = TXT_CURRENT_PRICE.resolveAllFor(actor);
+        System.out.println(planBandWidth);
+        return planBandWidth.get(0).getText();
     }
 
     public static Question<String> value(int index) {

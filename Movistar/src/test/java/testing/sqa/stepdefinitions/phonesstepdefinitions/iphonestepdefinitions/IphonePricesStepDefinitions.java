@@ -28,9 +28,7 @@ public class IphonePricesStepDefinitions {
     @When("^Brandon clicks on (.*) validates the correct site and clicks Online Purchase botton$")
     public void brandonClicksOnPhoneWebSiteAndClicksOnlinePurchaseBotton(String phoneWebsite) {
 
-        OnStage.theActorInTheSpotlight().attemptsTo(
-                GoToPhonePage.onThePage(phoneWebsite)
-        );
+        OnStage.theActorInTheSpotlight().attemptsTo(GoToPhonePage.onThePage(phoneWebsite));
 
 
     }

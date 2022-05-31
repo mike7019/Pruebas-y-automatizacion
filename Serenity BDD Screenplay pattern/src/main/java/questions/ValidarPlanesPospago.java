@@ -3,7 +3,6 @@ package questions;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
-import static testing.sqa.userinterface.MovistarPortabilidadPospagoPage.*;
 
 
 public class ValidarPlanesPospago implements Question<String> {
@@ -17,7 +16,7 @@ public class ValidarPlanesPospago implements Question<String> {
     @Override
     public String answeredBy(Actor actor) {
 
-        return TXT_PLAN_VALIDACION.of(plan).resolveFor(actor).getText();
+        return null;
     }
 
     public static Question<String> value(String plan) {

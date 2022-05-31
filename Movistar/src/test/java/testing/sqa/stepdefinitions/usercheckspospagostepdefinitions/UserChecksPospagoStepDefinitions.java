@@ -41,7 +41,6 @@ public class UserChecksPospagoStepDefinitions {
                 UserGoesToPostpago.onThePage(),
                 UserChoosesPostpagoPlans.onThePage(plan),
                 SwitchToNewTab.change(),
-                UserValidatesData.onThepage(),
                 Switch.toDefaultContext());
 
     }

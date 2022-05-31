@@ -1,10 +1,12 @@
 package interactions;
 
 
+import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 
+import java.util.List;
 
 
 public class ReviewThePhones implements Interaction {
@@ -13,8 +15,8 @@ public class ReviewThePhones implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-        /*
-        String currHandle = BrowseTheWeb.as(actor).getDriver().getWindowHandle();
+
+       /* String currHandle = BrowseTheWeb.as(actor).getDriver().getWindowHandle();
 
         List<WebElementFacade> buyOnline = MovistarEquiposRenovarPage.BTN_BUY_ONLINE.resolveAllFor(actor);
         List<WebElementFacade> phonePrice = MovistarEquiposRenovarPage.TXT_PRICE.resolveAllFor(actor);

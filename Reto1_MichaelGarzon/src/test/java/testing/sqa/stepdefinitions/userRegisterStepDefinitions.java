@@ -14,8 +14,8 @@ import testing.sqa.tasks.*;
 
 import java.util.List;
 
-import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-import static org.hamcrest.Matchers.equalTo;
+import static net.serenitybdd.screenplay.GivenWhenThen.*;
+import static org.hamcrest.Matchers.*;
 
 
 public class userRegisterStepDefinitions {
@@ -26,12 +26,12 @@ public class userRegisterStepDefinitions {
         OnStage.setTheStage(new OnlineCast());
     }
 
-    @Given("^That Brandon registered successfully on the website and attempts to log in$")
-    public void thatBrandonRegisteredSuccessfullyOnTheWebsiteAndAttemptsToLogIn() {
+    @Given("^That Brandon registered successfully on the (.*) and attempts to log in$")
+    public void thatBrandonRegisteredSuccessfullyOnTheWebsiteAndAttemptsToLogIn(String webSite) {
 
         //Here the actor opens up the website and clicks on the login link
         DriverRemoteBrowser.chromeHisBrowserWeb();
-        OnStage.theActorCalled("Brandon").can(BrowseTheWeb.with(DriverRemoteBrowser.on("https://www.advantageonlineshopping.com/#/")));
+        OnStage.theActorCalled("Brandon").can(BrowseTheWeb.with(DriverRemoteBrowser.on(webSite)));
         OnStage.theActorInTheSpotlight().wasAbleTo(UserOpenLogin.onThePage());
 
 

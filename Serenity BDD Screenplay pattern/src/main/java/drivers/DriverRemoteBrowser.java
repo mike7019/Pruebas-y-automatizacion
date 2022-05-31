@@ -16,7 +16,7 @@ public class DriverRemoteBrowser {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         options.addArguments("--disable-infobars;--no-sandbox;--test-type");
-        options.addArguments("--ignore-certificate-errors;--incognito;--disable-gpu;--no-sandbox");
+        options.addArguments("--ignore-certificate-errors;--incognito;--disable-gpu");
 
 
         driver = new ChromeDriver(options);

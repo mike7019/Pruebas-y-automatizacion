@@ -2,7 +2,7 @@ Feature: Review on the TCL module
 
   Brandon reviews the TCL section
 
-  @XiaomiSection
+  @TCLSection
   Scenario Outline: Brandon opens the website and reviews the <name> lists on the equipos tab
 
     Given that Brandon goes to <mainWebSite>

@@ -28,9 +28,8 @@ public class TclPricesStepDefinitions {
 
     }
 
-    @When("^Brandon clicks on (.*) validates the correct site, selects Tcl and clicks Online Purchase botton$")
-    public void brandonClicksOnHttpsMovistarComCoCelularesCellTclValidatesTheCorrectSiteSelectsNokiaAndClicksOnlinePurchaseBotton(String phoneWebsite) {
-
+    @When("^Brandon clicks on (.*) validates the correct site, selects TCL and clicks Online Purchase botton$")
+    public void brandonClicksOnPhoneWebSiteValidatesTheCorrectSiteSelectsTCLAndClicksOnlinePurchaseBotton(String phoneWebsite) {
         OnStage.theActorInTheSpotlight().attemptsTo(
                 GoToTclPhonePage.onThePage(phoneWebsite)
         );
@@ -38,14 +37,13 @@ public class TclPricesStepDefinitions {
 
     }
 
-    @Then("^Brandon visualize the Tcl price on the eShop matches with price checked on the price$")
-    public void brandonVisualizeTheRealmePriceOnTheEShopMatchesWithPriceCheckedOnThePrice() {
+    @Then("^Brandon visualize the TCL price on the eShop matches with price checked on the price$")
+    public void brandonVisualizeTheTCLPriceOnTheEShopMatchesWithPriceCheckedOnThePrice() {
 
         OnStage.theActorInTheSpotlight()
                 .attemptsTo(
                         ReviewThePhones.onThePage()
                 );
     }
-
 
 }

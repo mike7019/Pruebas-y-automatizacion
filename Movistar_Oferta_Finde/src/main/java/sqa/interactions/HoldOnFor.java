@@ -4,7 +4,8 @@ import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;
-import testing.sqa.drivers.DriverRemoteBrowser;
+import sqa.drivers.DriverRemoteBrowser;
+
 
 import java.util.concurrent.TimeUnit;
 

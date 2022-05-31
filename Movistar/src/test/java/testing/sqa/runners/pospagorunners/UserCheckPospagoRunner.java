@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 
-@CucumberOptions(features = "src/test/resources/testing.sqa.features/testpospagopagefeatures/userChecksPospago.feature",
+
+@CucumberOptions(features = "src/test/resources/testing.sqa.features/pospago.features/userChecksPospago.feature",
         glue = "testing.sqa.stepdefinitions.usercheckspospagostepdefinitions",
         snippets = SnippetType.CAMELCASE)
 public class UserCheckPospagoRunner {

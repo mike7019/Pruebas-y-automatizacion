@@ -8,14 +8,16 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.questions.WebElementQuestion;
-import testing.sqa.drivers.DriverRemoteBrowser;
-import testing.sqa.interactions.SwitchToNewTab;
-import testing.sqa.tasks.UserChoosesPostpagoPlans;
-import testing.sqa.tasks.UserGoesToPostpago;
-import testing.sqa.questions.UserValidatesData;
+import sqa.drivers.DriverRemoteBrowser;
+import sqa.interactions.SwitchToNewTab;
+import sqa.questions.UserValidatesData;
+import sqa.tasks.UserChoosesPostpagoPlans;
+import sqa.tasks.UserGoesToPostpago;
+
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-import static testing.sqa.userinterface.MovistarPortabilidadPospagoPage.TXT_PLAN_VALIDACION;
+import static sqa.userinterface.MovistarPortabilidadPospagoPage.TXT_PLAN_VALIDACION;
+
 
 public class UserChecksPostpagoStepDefinitions {
 

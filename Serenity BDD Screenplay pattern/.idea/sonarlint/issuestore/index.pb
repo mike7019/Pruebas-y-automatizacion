@@ -19,5 +19,3 @@ Y
 )src/main/java/interactions/HoldOnFor.java,d\5\d54de6dd8c231b3be3185e05928d7aa016a7c204
 ]
 -src/main/java/interactions/SwitchToFrame.java,7\9\796c90ee320f937d534bc57250dd9491f7cf0b24
-e
-5src/test/java/testing/sqa/runners/UserStepRunner.java,c\8\c81a935638ea57ad36a4c039caea6da98931bc5d

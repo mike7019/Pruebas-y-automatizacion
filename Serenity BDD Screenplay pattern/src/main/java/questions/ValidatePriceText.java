@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.Question;
 
 import java.util.List;
 
-import static userinterface.UserInterfacePage1.TXT_CURRENT_PRICE;
+import static userinterface.UserInterfacePage1.TXT_DISCOUNT_PRICE;
 
 
 
@@ -21,7 +21,7 @@ public class ValidatePriceText implements Question<String> {
 
     @Override
     public String answeredBy(Actor actor) {
-        List<WebElementFacade> planBandWidth = TXT_CURRENT_PRICE.resolveAllFor(actor);
+        List<WebElementFacade> planBandWidth = TXT_DISCOUNT_PRICE.resolveAllFor(actor);
         System.out.println(planBandWidth);
         return planBandWidth.get(0).getText();
     }

@@ -51,9 +51,8 @@ public class ReviewThePhones implements Interaction {
                     WaitUntil.the(TXT_E_SHOP_PRICE, isVisible()).forNoMoreThan(150).seconds(),
                     Ensure.that(TXT_E_SHOP_PRICE).text().isEqualTo(currentPrice),
                     HoldOnFor.thisSeconds(150),
-                    CloseCurrentTab.on(),
+                    GoToPreviousPage.onThePage(),
                     HoldOnFor.thisSeconds(150),
-                    Switch.toWindow(currHandle),
                     WaitUntil.the(TXT_PRICE, isVisible()).forNoMoreThan(150).seconds()
             );
         }

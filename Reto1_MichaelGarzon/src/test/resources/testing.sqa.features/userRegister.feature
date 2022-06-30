@@ -15,6 +15,7 @@ Feature: Register on the website test
 
     Examples:
       | user        | email                 | password    | confPass    | webSite                                    |
-      | Liliana7129 | Liliana7129@gmail.com | Deutsch7019 | Deutsch7019 | https://www.advantageonlineshopping.com/#/ |
+      | Liliana7465 | Liliana6877@gmail.com | Deutsch7019 | Deutsch7019 | https://www.advantageonlineshopping.com/#/ |
+
 
 

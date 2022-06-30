@@ -3,19 +3,26 @@ package testing.sqa.stepdefinitions;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
 
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
+import net.serenitybdd.screenplay.ensure.Ensure;
+import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
+import net.serenitybdd.screenplay.questions.WebElementQuestion;
+import org.hamcrest.Matchers;
 import testing.sqa.drivers.DriverRemoteBrowser;
 import testing.sqa.models.UserData;
 import testing.sqa.questions.ValidateUserOnScreen;
 import testing.sqa.tasks.*;
+import testing.sqa.userinterface.AdvantageMainPage;
 
 import java.util.List;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.*;
 import static org.hamcrest.Matchers.*;
+import static testing.sqa.userinterface.AdvantageMainPage.LBL_USERNAME_LOGGED;
 
 
 public class userRegisterStepDefinitions {
@@ -51,11 +58,13 @@ public class userRegisterStepDefinitions {
         );
     }
 
-    @Then("^Brandon validates the registry was successfully done showing the user name displayed as (.*)$")
+    @Then("^Brandon validates the registry was successfully done showing the user name displayed as$")
     public void brandonValidatesTheRegistryWasSuccessfullyDoneShowingTheUserNameDisplayedsAsTrue(String user) {
 
         //Here the actor should see the text of the username registered at the top and compares it with the expected result
         OnStage.theActorInTheSpotlight().should(seeThat(ValidateUserOnScreen.value(), equalTo(user)));
+        Ensure.that(LBL_USERNAME_LOGGED).text().isEqualTo(user);
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(WebElementQuestion.the(AdvantageMainPage.LBL_USERNAME_LOGGED.toString()), WebElementStateMatchers.containsText(user)));
 
     }
 }

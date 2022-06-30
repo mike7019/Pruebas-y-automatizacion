@@ -18,6 +18,7 @@ public class ReviewTheAccesories implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         System.out.println("Entro");
+
         try {
             dataAccesories = ReadExcelData.ReadExcelData("Data.xlsx", "info");
         } catch (Exception e) {

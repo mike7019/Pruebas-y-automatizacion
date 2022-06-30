@@ -31,7 +31,6 @@ public class GoToXiaomiPhonePage implements Task {
                 JavaScriptClick.on(MovistarEquiposRenovarPage.BTN_XIAOMI_BRAND),
                 Ensure.thatTheCurrentPage().currentUrl().contains(phoneWebsite)
         );
-
     }
 
     //This is the way to call the task

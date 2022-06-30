@@ -17,25 +17,27 @@ public class ReviewFiberTvApps implements Task {
     public <T extends Actor> void performAs(T actor) {
         switch (plan) {
             case 0:
-                OnStage.theActorInTheSpotlight().attemptsTo(ReviewsFirstPlan.onThePage(plan));
+                OnStage.theActorInTheSpotlight().attemptsTo(ReviewsFiberAndTvApps.onThePage(plan));
                 break;
 
             case 1:
-                OnStage.theActorInTheSpotlight().attemptsTo(UserReviewsSecondPlan.onThePage(plan));
+                OnStage.theActorInTheSpotlight().attemptsTo(ReviewsFiberAndTvApps.onThePage(plan));
                 break;
 
             case 2:
-                OnStage.theActorInTheSpotlight().attemptsTo(UserReviewsThirdPlan.onThePage(plan));
+                OnStage.theActorInTheSpotlight().attemptsTo(ReviewsFiberAndTvApps.onThePage(plan));
                 break;
 
             case 3:
-                OnStage.theActorInTheSpotlight().attemptsTo(UserReviewsFourthPlan.onThePage(plan));
+                OnStage.theActorInTheSpotlight().attemptsTo(ReviewsFiberAndTvApps.onThePage(plan));
                 break;
 
             case 4:
-                OnStage.theActorInTheSpotlight().attemptsTo(UserReviewsFifthPlan.onThePage(plan));
+                OnStage.theActorInTheSpotlight().attemptsTo(ReviewsFiberAndTvApps.onThePage(plan));
                 break;
-
+            default:
+                System.out.println("No such plan found");
+                break;
         }
     }
 

@@ -5,6 +5,7 @@ import cucumber.api.java.en.*;
 import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import net.serenitybdd.screenplay.ensure.Ensure;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.questions.WebElementQuestion;
 import testing.sqa.questions.ValidateUserOnScreen;
@@ -14,6 +15,7 @@ import testing.sqa.userinterface.OrderPayment;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.equalTo;
+import static testing.sqa.userinterface.OrderPayment.LBL_LAPTOP;
 
 public class userPurchaseStepDefinitions {
 
@@ -44,8 +46,9 @@ public class userPurchaseStepDefinitions {
     @Then("^Brandon visualizes the correct laptop was successfully choose and shows the laptop name (.*)$")
     public void brandonVisualizesTheCorrectLaptopWasSuccessfullyChooseAndShowsTheLaptopNameHPENVYTTOUCH(String laptop) {
         //here the actor validates the laptop listed on the website it´s the chosen at the beginning
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(WebElementQuestion.the(OrderPayment.LBL_LAPTOP), WebElementStateMatchers.containsText(laptop)));
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(WebElementQuestion.the(LBL_LAPTOP), WebElementStateMatchers.containsText(laptop)));
 
+        Ensure.that(LBL_LAPTOP).text().isEqualTo(laptop);
     }
 
 }

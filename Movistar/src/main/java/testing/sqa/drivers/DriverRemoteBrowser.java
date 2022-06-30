@@ -3,6 +3,8 @@ package testing.sqa.drivers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
@@ -14,6 +16,7 @@ public class DriverRemoteBrowser {
     public static DriverRemoteBrowser chromeHisBrowserWeb() {
 
         ChromeOptions options = new ChromeOptions();
+
         options.addArguments("--start-maximized");
         options.addArguments("--disable-infobars;--no-sandbox;--test-type");
         options.addArguments("--ignore-certificate-errors;--incognito;--disable-gpu;--no-sandbox");
@@ -22,6 +25,22 @@ public class DriverRemoteBrowser {
         driver = new ChromeDriver(options);
         return new DriverRemoteBrowser();
     }
+
+
+
+       /* EdgeOptions options = new EdgeOptions();
+
+        options.
+
+
+        options.addArguments("--start-maximized");
+        options.addArguments("--disable-infobars;--no-sandbox;--test-type");
+        options.addArguments("--ignore-certificate-errors;--incognito;--disable-gpu;--no-sandbox");
+
+
+        driver = new EdgeOptions(options);
+        return new DriverRemoteBrowser();
+    }*/
 
     public static DriverRemoteBrowser firefoxHisBrowserWeb() {
         driver = new FirefoxDriver();

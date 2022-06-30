@@ -108,7 +108,7 @@
             <span class="breadcrumbs">
                 <a href="index.html">Home</a>
                 > <span class="truncate-40"><a
-                    href="22685cc1d76f89a8d237c9512baa6a2d27178e03084faa06d92699a8afc9b917.html">Research On The Internet Fiber And Tvapps</a></span>
+                    href="91c811273f28fa4dfde0b6714ad33039bfba5404daad24b268ddc20bb29c32b3.html">Research On The Internet Fiber And Tvapps</a></span>
                 > <span class="truncate-60"><a
                     href="b5347e67b11ee433b9b805c5d3459da15d2e1bd1658a95cf82652a5ebc369090.html">Brandon opens the website and reviews the fiber and tv apps </a></span>
                 > Screenshots
@@ -129,7 +129,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-05-2022 21:13</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-06-2022 12:12</span>
     <br style="clear:left"/>
 </div>
 
@@ -165,9 +165,9 @@ the current plans matches with the information provided
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Brandon opens the website and reviews the fiber and tv apps
+                                <span class="error-color">Brandon opens the website and reviews the fiber and tv apps
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -183,34 +183,107 @@ the current plans matches with the information provided
 
     <div class="story-title">
         <h3>Scenario:</h3>
-        <div class="scenario">Given that Brandon opens the site &lt;site&gt; and lists the available plans<br>When Brandon chooses the &lt;plan&gt; and sees the price<br>Then Brandon can sort the tvApps first with &lt;tvAppsOne&gt; and &lt;tvAppsTwo&gt;</div>
+        <div class="scenario">Given that Brandon opens the site &lt;site&gt; and lists the available plans<br>When Brandon chooses the &lt;plan&gt; and sees the price<br>Then Brandon can sort the &lt;plan&gt; and tvApps first with &lt;netflix&gt; &lt;primevideo&gt; and &lt;disney&Star&gt;</div>
     </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'xpath','selector':'//p[@class='megasElegidas']//span'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>tasks.ReviewsFiberAndTvApps.performAs(ReviewsFiberAndTvApps.java:68)<br />tasks.ReviewFiberTvApps.performAs(ReviewFiberTvApps.java:20)<br />testing.sqa.stepdefinitions.fiberandtvappsstepdefinitions.FiberAndTvAppsStepDefinitions.brandonChoosesTheAndSeesThePrice(FiberAndTvAppsStepDefinitions.java:32)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource2113089351211318114.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="508b33f2b97333945211947f9b90183856e2df0974bcd4dc0c5e262df1bbfece.png" title=" Example: {plan=0, site=https://movistarco-desa.telefonicawebsites.co/pru3b4F1br4#aplicaciones, tvAppsOne=Netflix, tvAppsTwo=primeVideo, tvAppsThree=}" width="1366"/>
-                <img src="508b33f2b97333945211947f9b90183856e2df0974bcd4dc0c5e262df1bbfece.png" title=" Given that Brandon opens the site https://movistarco-desa.telefonicawebsites.co/pru3b4F1br4#aplicaciones and lists the available plans" width="1366"/>
-                <img src="508b33f2b97333945211947f9b90183856e2df0974bcd4dc0c5e262df1bbfece.png" title=" When Brandon chooses the 0 and sees the price" width="1366"/>
-                <img src="7ebcd6e3b1968d8045e81405dc08028098f09649c10163acc19571cf62bc65e6.png" title=" Brandon review fiber tv apps" width="1366"/>
-                <img src="7ebcd6e3b1968d8045e81405dc08028098f09649c10163acc19571cf62bc65e6.png" title=" Brandon reviews first plan" width="1366"/>
-                <img src="7ebcd6e3b1968d8045e81405dc08028098f09649c10163acc19571cf62bc65e6.png" title=" Brandon clicks on Button to choose internet and tvApps" width="1366"/>
-                <img src="c4add7945c1648b47db0275905665295d37acc7e5944f48f7ae672d35fa89422.png" title=" Brandon clicks on Button to choose internet and tvApps (completed)" width="1366"/>
-                <img src="5f09f7dc344927148d4ef1fa4b842a5ece9c18db85e1ba27c1fa1be7927bea3c.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (1d02c03d079721aea58f09ac28a1d66d)] -&gt; xpath: //*[@id='plan']//h2]" width="1366"/>
-                <img src="7e09b94b238064ffd1b165d4375653fef04ae123eb9d4847d3f698b2154942dc.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (1d02c03d079721aea58f09ac28a1d66d)] -&gt; xpath: //*[@id='plan']//h2] (completed)" width="1366"/>
-                <img src="7e09b94b238064ffd1b165d4375653fef04ae123eb9d4847d3f698b2154942dc.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;900&quot;&gt;" width="1366"/>
-                <img src="f221e9c242cb490a5b19b363446b44628c04aaa312586850ae6b9f40fe84b2ea.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;900&quot;&gt; (completed)" width="1366"/>
-                <img src="f221e9c242cb490a5b19b363446b44628c04aaa312586850ae6b9f40fe84b2ea.png" title=" Brandon should see text that shows the current price with text value that is equal to: &lt;&quot;$208.192&quot;&gt;" width="1366"/>
-                <img src="f221e9c242cb490a5b19b363446b44628c04aaa312586850ae6b9f40fe84b2ea.png" title=" Brandon should see text that shows the current price with text value that is equal to: &lt;&quot;$208.192&quot;&gt; (completed)" width="1366"/>
-                <img src="f221e9c242cb490a5b19b363446b44628c04aaa312586850ae6b9f40fe84b2ea.png" title=" Brandon should see text to the previous price with text value that is equal to: &lt;&quot;Normal $258.990&quot;&gt;" width="1366"/>
-                <img src="f221e9c242cb490a5b19b363446b44628c04aaa312586850ae6b9f40fe84b2ea.png" title=" Brandon should see text to the previous price with text value that is equal to: &lt;&quot;Normal $258.990&quot;&gt; (completed)" width="1366"/>
-                <img src="f221e9c242cb490a5b19b363446b44628c04aaa312586850ae6b9f40fe84b2ea.png" title=" Brandon reviews first plan (completed)" width="1366"/>
-                <img src="f221e9c242cb490a5b19b363446b44628c04aaa312586850ae6b9f40fe84b2ea.png" title=" Brandon review fiber tv apps (completed)" width="1366"/>
-                <img src="f221e9c242cb490a5b19b363446b44628c04aaa312586850ae6b9f40fe84b2ea.png" title=" When Brandon chooses the 0 and sees the price (completed)" width="1366"/>
-                <img src="f221e9c242cb490a5b19b363446b44628c04aaa312586850ae6b9f40fe84b2ea.png" title=" Then Brandon can sort the tvApps first with Netflix and primeVideo" width="1366"/>
-                <img src="f221e9c242cb490a5b19b363446b44628c04aaa312586850ae6b9f40fe84b2ea.png" title=" Then Brandon can sort the tvApps first with Netflix and primeVideo (completed)" width="1366"/>
-                <img src="f221e9c242cb490a5b19b363446b44628c04aaa312586850ae6b9f40fe84b2ea.png" title=" Example: {plan=0, site=https://movistarco-desa.telefonicawebsites.co/pru3b4F1br4#aplicaciones, tvAppsOne=Netflix, tvAppsTwo=primeVideo, tvAppsThree=} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="2664731fc361d23b0cf2b279aca37bea76e389163bea01406420c07b033c577b.png" title=" Example: {plan=0, site=https://movistar.com.co/hogar/planes-internet-fibra-optica, netflix=0, primevideo=1, disney&amp;Star=4}" width="1366"/>
+                <img src="2664731fc361d23b0cf2b279aca37bea76e389163bea01406420c07b033c577b.png" title=" Given that Brandon opens the site https://movistar.com.co/hogar/planes-internet-fibra-optica and lists the available plans" width="1366"/>
+                <img src="2664731fc361d23b0cf2b279aca37bea76e389163bea01406420c07b033c577b.png" title=" When Brandon chooses the 0 and sees the price" width="1366"/>
+                <img src="2664731fc361d23b0cf2b279aca37bea76e389163bea01406420c07b033c577b.png" title=" Brandon review fiber tv apps" width="1366"/>
+                <img src="2664731fc361d23b0cf2b279aca37bea76e389163bea01406420c07b033c577b.png" title=" Brandon reviews fiber and tv apps" width="1366"/>
+                <img src="2664731fc361d23b0cf2b279aca37bea76e389163bea01406420c07b033c577b.png" title=" Brandon clicks on Button to choose internet and tvApps" width="1366"/>
+                <img src="b6535b6fd121c4ad003fb8c22193d3cad617e7bbe41e5041c58c594ca9e7ae72.png" title=" Brandon clicks on Button to choose internet and tvApps (completed)" width="1366"/>
+                <img src="b7f24febb8284d755e2be23343813e9f44a0b8b559ce59f4823df13ba3ffce26.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (64781a6cb46e05f1f086d1be2113d025)] -&gt; xpath: //*[@id='plan']//h2]" width="1366"/>
+                <img src="b7f24febb8284d755e2be23343813e9f44a0b8b559ce59f4823df13ba3ffce26.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (64781a6cb46e05f1f086d1be2113d025)] -&gt; xpath: //*[@id='plan']//h2] (completed)" width="1366"/>
+                <img src="b7f24febb8284d755e2be23343813e9f44a0b8b559ce59f4823df13ba3ffce26.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;900&quot;&gt;" width="1366"/>
+                <img src="b7f24febb8284d755e2be23343813e9f44a0b8b559ce59f4823df13ba3ffce26.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;900&quot;&gt; (completed)" width="1366"/>
+                <img src="0b581c3a3f7ca5447bd8434a3acc627c13fd15d2c39551241a0834ff9abb5d99.png" title=" Example: {plan=1, site=https://movistar.com.co/hogar/planes-internet-fibra-optica, netflix=0, primevideo=1, disney&amp;Star=4}" width="1366"/>
+                <img src="0b581c3a3f7ca5447bd8434a3acc627c13fd15d2c39551241a0834ff9abb5d99.png" title=" Given that Brandon opens the site https://movistar.com.co/hogar/planes-internet-fibra-optica and lists the available plans" width="1366"/>
+                <img src="0b581c3a3f7ca5447bd8434a3acc627c13fd15d2c39551241a0834ff9abb5d99.png" title=" When Brandon chooses the 1 and sees the price" width="1366"/>
+                <img src="0b581c3a3f7ca5447bd8434a3acc627c13fd15d2c39551241a0834ff9abb5d99.png" title=" Brandon review fiber tv apps" width="1366"/>
+                <img src="0b581c3a3f7ca5447bd8434a3acc627c13fd15d2c39551241a0834ff9abb5d99.png" title=" Brandon reviews fiber and tv apps" width="1366"/>
+                <img src="0b581c3a3f7ca5447bd8434a3acc627c13fd15d2c39551241a0834ff9abb5d99.png" title=" Brandon clicks on Button to choose internet and tvApps" width="1366"/>
+                <img src="4b01f0209ff26fe387a62ee013fda78f9f10db5b436fc3fc4fb776da8fd07f29.png" title=" Brandon clicks on Button to choose internet and tvApps (completed)" width="1366"/>
+                <img src="489e7312a9163ade06c16193b6a068710c545f1857bc137536fb27e0f29c5ccb.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (c974761145eaf0b2e1f329edf444395f)] -&gt; xpath: //*[@id='plan']//h2]" width="1366"/>
+                <img src="2c8db3bea5064a9d91990be43f18b2c1af4d0cb65e6224f660539abb8cc0d0be.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (c974761145eaf0b2e1f329edf444395f)] -&gt; xpath: //*[@id='plan']//h2] (completed)" width="1366"/>
+                <img src="2c8db3bea5064a9d91990be43f18b2c1af4d0cb65e6224f660539abb8cc0d0be.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;500&quot;&gt;" width="1366"/>
+                <img src="b6535b6fd121c4ad003fb8c22193d3cad617e7bbe41e5041c58c594ca9e7ae72.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;500&quot;&gt; (completed)" width="1366"/>
+                <img src="5718d5918106f321d943123af73fcbb18d6811c60b5fee686ce2acf3f8b1c172.png" title=" Example: {plan=2, site=https://movistar.com.co/hogar/planes-internet-fibra-optica, netflix=0, primevideo=1, disney&amp;Star=4}" width="1366"/>
+                <img src="5718d5918106f321d943123af73fcbb18d6811c60b5fee686ce2acf3f8b1c172.png" title=" Given that Brandon opens the site https://movistar.com.co/hogar/planes-internet-fibra-optica and lists the available plans" width="1366"/>
+                <img src="5718d5918106f321d943123af73fcbb18d6811c60b5fee686ce2acf3f8b1c172.png" title=" When Brandon chooses the 2 and sees the price" width="1366"/>
+                <img src="5718d5918106f321d943123af73fcbb18d6811c60b5fee686ce2acf3f8b1c172.png" title=" Brandon review fiber tv apps" width="1366"/>
+                <img src="bc46ada60175441cbc9b24e9bee7b1ce51a2547ddb824a1b249b4a5b561ff8f8.png" title=" Brandon reviews fiber and tv apps" width="1366"/>
+                <img src="bc46ada60175441cbc9b24e9bee7b1ce51a2547ddb824a1b249b4a5b561ff8f8.png" title=" Brandon clicks on Button to choose internet and tvApps" width="1366"/>
+                <img src="09de5dafd73525ff71288b3f276a0a670c7319850bcb4e44bb62c6b39db07c47.png" title=" Brandon clicks on Button to choose internet and tvApps (completed)" width="1366"/>
+                <img src="09de5dafd73525ff71288b3f276a0a670c7319850bcb4e44bb62c6b39db07c47.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (de00e7230a1f68865615c61221405430)] -&gt; xpath: //*[@id='plan']//h2]" width="1366"/>
+                <img src="09de5dafd73525ff71288b3f276a0a670c7319850bcb4e44bb62c6b39db07c47.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (de00e7230a1f68865615c61221405430)] -&gt; xpath: //*[@id='plan']//h2] (completed)" width="1366"/>
+                <img src="09de5dafd73525ff71288b3f276a0a670c7319850bcb4e44bb62c6b39db07c47.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;400&quot;&gt;" width="1366"/>
+                <img src="09de5dafd73525ff71288b3f276a0a670c7319850bcb4e44bb62c6b39db07c47.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;400&quot;&gt; (completed)" width="1366"/>
+                <img src="41e4fd5d81797ee0b8a103c78e8ce9852393030f9db166fab4dfa3d3e823548a.png" title=" Example: {plan=3, site=https://movistar.com.co/hogar/planes-internet-fibra-optica, netflix=0, primevideo=1, disney&amp;Star=4}" width="1366"/>
+                <img src="41e4fd5d81797ee0b8a103c78e8ce9852393030f9db166fab4dfa3d3e823548a.png" title=" Given that Brandon opens the site https://movistar.com.co/hogar/planes-internet-fibra-optica and lists the available plans" width="1366"/>
+                <img src="41e4fd5d81797ee0b8a103c78e8ce9852393030f9db166fab4dfa3d3e823548a.png" title=" When Brandon chooses the 3 and sees the price" width="1366"/>
+                <img src="be62d56a41f1d99a31b2d89bc2e1daa8b103515f43ea5b2fca04df294c72ef92.png" title=" Brandon review fiber tv apps" width="1366"/>
+                <img src="21dd73695edd5f0cbce13cc6d92a5a398188d3583664648333191b5388b4ddf6.png" title=" Brandon reviews fiber and tv apps" width="1366"/>
+                <img src="21dd73695edd5f0cbce13cc6d92a5a398188d3583664648333191b5388b4ddf6.png" title=" Brandon clicks on Button to choose internet and tvApps" width="1366"/>
+                <img src="9d489906c5918751f991c6ece47794bea47818541c2895f2f5ba2c63d35a4637.png" title=" Brandon clicks on Button to choose internet and tvApps (completed)" width="1366"/>
+                <img src="9d489906c5918751f991c6ece47794bea47818541c2895f2f5ba2c63d35a4637.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (63fafee87aae864033a604a18fafc4bb)] -&gt; xpath: //*[@id='plan']//h2]" width="1366"/>
+                <img src="9d489906c5918751f991c6ece47794bea47818541c2895f2f5ba2c63d35a4637.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (63fafee87aae864033a604a18fafc4bb)] -&gt; xpath: //*[@id='plan']//h2] (completed)" width="1366"/>
+                <img src="9d489906c5918751f991c6ece47794bea47818541c2895f2f5ba2c63d35a4637.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;300&quot;&gt;" width="1366"/>
+                <img src="9d489906c5918751f991c6ece47794bea47818541c2895f2f5ba2c63d35a4637.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;300&quot;&gt; (completed)" width="1366"/>
+                <img src="15d300fb14732d43638069d4f2edeefef262f1b728092dba716516ee3eef33d5.png" title=" Example: {plan=4, site=https://movistar.com.co/hogar/planes-internet-fibra-optica, netflix=0, primevideo=1, disney&amp;Star=4}" width="1366"/>
+                <img src="15d300fb14732d43638069d4f2edeefef262f1b728092dba716516ee3eef33d5.png" title=" Given that Brandon opens the site https://movistar.com.co/hogar/planes-internet-fibra-optica and lists the available plans" width="1366"/>
+                <img src="15d300fb14732d43638069d4f2edeefef262f1b728092dba716516ee3eef33d5.png" title=" When Brandon chooses the 4 and sees the price" width="1366"/>
+                <img src="15d300fb14732d43638069d4f2edeefef262f1b728092dba716516ee3eef33d5.png" title=" Brandon review fiber tv apps" width="1366"/>
+                <img src="b24a66ec8f22281b8f7fa2ce997e9db57146ca59db5779334a5e7379895c97d6.png" title=" Brandon reviews fiber and tv apps" width="1366"/>
+                <img src="b24a66ec8f22281b8f7fa2ce997e9db57146ca59db5779334a5e7379895c97d6.png" title=" Brandon clicks on Button to choose internet and tvApps" width="1366"/>
+                <img src="2de6ec7563d95ff8abdd48878f59c3f9aa1b998a23889eaaa2b7c631e29b1d41.png" title=" Brandon clicks on Button to choose internet and tvApps (completed)" width="1366"/>
+                <img src="2de6ec7563d95ff8abdd48878f59c3f9aa1b998a23889eaaa2b7c631e29b1d41.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (13a3758b5721118a7aae1682e4af408b)] -&gt; xpath: //*[@id='plan']//h2]" width="1366"/>
+                <img src="2de6ec7563d95ff8abdd48878f59c3f9aa1b998a23889eaaa2b7c631e29b1d41.png" title=" Brandon clicks on [[ChromeDriver: chrome on WINDOWS (13a3758b5721118a7aae1682e4af408b)] -&gt; xpath: //*[@id='plan']//h2] (completed)" width="1366"/>
+                <img src="2de6ec7563d95ff8abdd48878f59c3f9aa1b998a23889eaaa2b7c631e29b1d41.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;200&quot;&gt;" width="1366"/>
+                <img src="2de6ec7563d95ff8abdd48878f59c3f9aa1b998a23889eaaa2b7c631e29b1d41.png" title=" Brandon should see Text with the plan chosen with text value that is equal to: &lt;&quot;200&quot;&gt; (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

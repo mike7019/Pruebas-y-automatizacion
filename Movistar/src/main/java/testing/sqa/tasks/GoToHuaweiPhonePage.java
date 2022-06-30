@@ -8,6 +8,7 @@ import net.serenitybdd.screenplay.actions.JavaScriptClick;
 import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.ensure.Ensure;
 import testing.sqa.interactions.HoldOnFor;
+import testing.sqa.interactions.ReviewThePhones;
 import testing.sqa.userinterface.MovistarEquiposRenovarPage;
 import testing.sqa.userinterface.MovistarMainPage;
 
@@ -29,6 +30,7 @@ public class GoToHuaweiPhonePage implements Task {
                 HoldOnFor.thisSeconds(150),
                 Scroll.to(MovistarEquiposRenovarPage.BTN_HUAWEI_BRAND),
                 JavaScriptClick.on(MovistarEquiposRenovarPage.BTN_HUAWEI_BRAND),
+                ReviewThePhones.onThePage(),
                 Ensure.thatTheCurrentPage().currentUrl().contains(phoneWebsite)
         );
 

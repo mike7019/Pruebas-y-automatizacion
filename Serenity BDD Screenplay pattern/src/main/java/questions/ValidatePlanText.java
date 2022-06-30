@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.Question;
 
 import java.util.List;
 
-import static userinterface.UserInterfacePage1.BTN_PLAN;
+import static userinterface.FiberAndTvAppsPage.BTN_PLAN;
 
 
 public class ValidatePlanText implements Question<String> {

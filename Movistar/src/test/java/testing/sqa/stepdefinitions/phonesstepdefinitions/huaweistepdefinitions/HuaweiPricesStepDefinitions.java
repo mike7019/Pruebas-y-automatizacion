@@ -39,10 +39,7 @@ public class HuaweiPricesStepDefinitions {
     @Then("^Brandon visualize the Huawei price on the eShop matches with price checked on the price$")
     public void brandonVisualizeTheHuaweiPriceOnTheEShopMatchesWithPriceCheckedOnThePrice() {
 
-        OnStage.theActorInTheSpotlight()
-                .attemptsTo(
-                        ReviewThePhones.onThePage()
-                );
+
     }
 
 

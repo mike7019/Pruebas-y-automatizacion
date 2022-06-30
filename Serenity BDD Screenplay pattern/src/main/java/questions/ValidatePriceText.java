@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.Question;
 
 import java.util.List;
 
-import static userinterface.UserInterfacePage1.TXT_DISCOUNT_PRICE;
+import static userinterface.FiberAndTvAppsPage.TXT_DISCOUNT_PRICE;
 
 
 

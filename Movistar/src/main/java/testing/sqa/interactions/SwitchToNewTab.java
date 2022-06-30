@@ -14,6 +14,7 @@ public class SwitchToNewTab implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
+
         WebDriver driver = BrowseTheWeb.as(actor).getDriver();
         String currHandle = driver.getWindowHandle();
         Set<String> allHandles = driver.getWindowHandles();

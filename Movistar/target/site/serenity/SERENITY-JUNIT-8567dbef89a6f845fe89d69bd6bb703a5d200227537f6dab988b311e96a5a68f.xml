@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Review on the Iphone module" skipped="0" tests="1" time="34.38" timestamp="2022-06-26 12:49:41"><testcase name="Brandon opens the website and reviews the iphone lists on the equipos tab"><failure message="&#10;Expecting a value that contains: &lt;[https://movistar.com.co/celulares?cell=iphone]&gt;&#10;But got........................: &lt;&quot;https://movistar.com.co/celulares&quot;&gt;" type="java.lang.AssertionError">
+Expecting a value that contains: &lt;[https://movistar.com.co/celulares?cell=iphone]&gt;
+But got........................: &lt;"https://movistar.com.co/celulares"&gt;</failure><system-err>
+Expecting a value that contains: &lt;[https://movistar.com.co/celulares?cell=iphone]&gt;
+But got........................: &lt;"https://movistar.com.co/celulares"&gt;&#13;
+testing.sqa.tasks.GoToPhonePage.performAs(GoToPhonePage.java:22)&#13;
+testing.sqa.stepdefinitions.phonesstepdefinitions.iphonestepdefinitions.IphonePricesStepDefinitions.brandonClicksOnPhoneWebSiteAndClicksOnlinePurchaseBotton(IphonePricesStepDefinitions.java:31)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

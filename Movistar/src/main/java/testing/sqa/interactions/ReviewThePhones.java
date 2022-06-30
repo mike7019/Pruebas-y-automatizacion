@@ -6,14 +6,20 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Hit;
+import net.serenitybdd.screenplay.actions.JavaScriptClick;
 import net.serenitybdd.screenplay.actions.Switch;
 import net.serenitybdd.screenplay.ensure.Ensure;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import org.openqa.selenium.Keys;
 import testing.sqa.userinterface.MovistarEquiposRenovarPage;
+import testing.sqa.utils.ExcelDataTable;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isCurrentlyVisible;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static testing.sqa.userinterface.MovistarEquiposRenovarPage.*;
 
@@ -25,36 +31,39 @@ public class ReviewThePhones implements Interaction {
     public <T extends Actor> void performAs(T actor) {
 
         String currHandle = BrowseTheWeb.as(actor).getDriver().getWindowHandle();
-
-        List<WebElementFacade> buyOnline = MovistarEquiposRenovarPage.BTN_BUY_ONLINE.resolveAllFor(actor);
         List<WebElementFacade> phonePrice = MovistarEquiposRenovarPage.TXT_PRICE.resolveAllFor(actor);
-        List<WebElementFacade> phoneName = MovistarEquiposRenovarPage.TXT_PHONE_NAME.resolveAllFor(actor);
-
-
 
         for (int i = 0; i < phonePrice.size(); i++) {
 
-            String currentPrice = phonePrice.get(i).getText();
-            String currentPhoneStorage = phoneName.get(i).getText();
+            List<WebElementFacade> buyOnline = MovistarEquiposRenovarPage.BTN_BUY_ONLINE.resolveAllFor(actor);
+            List<WebElementFacade> currentName = MovistarEquiposRenovarPage.TXT_PHONE_NAME.resolveAllFor(actor);
+            List<WebElementFacade> phonePrecio = MovistarEquiposRenovarPage.TXT_PRICE.resolveAllFor(actor);
 
-            System.out.println("..........." + i + "..............");
-            System.out.println(currentPhoneStorage);
-            System.out.println(currentPrice);
-            System.out.println("..............................");
+            String currentPrice = phonePrecio.get(i).getText();
+            String currName = currentName.get(i).getText();
+
+//            System.out.println("..........." + i + "..............");
+            System.out.print(currName);
+            System.out.println(" "+currentPrice);
+//            System.out.println("..............................");
 
 
-            actor.attemptsTo(
-                    Ensure.that(TXT_PRICE).isDisplayed(),
-                    Hit.the(Keys.ENTER).keyIn(buyOnline.get(i)),
-                    HoldOnFor.thisSeconds(150),
-                    SwitchToNewTab.change(),
-                    WaitUntil.the(TXT_E_SHOP_PRICE, isVisible()).forNoMoreThan(150).seconds(),
-                    Ensure.that(TXT_E_SHOP_PRICE).text().isEqualTo(currentPrice),
-                    HoldOnFor.thisSeconds(150),
-                    GoToPreviousPage.onThePage(),
-                    HoldOnFor.thisSeconds(150),
-                    WaitUntil.the(TXT_PRICE, isVisible()).forNoMoreThan(150).seconds()
-            );
+                actor.attemptsTo(
+                        HoldOnFor.thisSeconds(15),
+                        WaitUntil.the(TXT_PRICE, isCurrentlyVisible()).forNoMoreThan(20).seconds(),
+                        Ensure.that(TXT_PRICE).text().isEqualTo(currentPrice),
+                        Hit.the(Keys.ENTER).keyIn(buyOnline.get(i)),
+                        HoldOnFor.thisSeconds(150),
+                        SwitchToNewTab.change(),
+                        WaitUntil.the(TXT_E_SHOP_PRICE, isVisible()).forNoMoreThan(150).seconds(),
+                        Ensure.that(TXT_E_SHOP_PRICE).text().isEqualTo(currentPrice),
+                        HoldOnFor.thisSeconds(150),
+                    //    CloseCurrentTab.on(),
+                        GoToPreviousPage.onThePage(i),
+                        Switch.toWindow(currHandle),
+                        HoldOnFor.thisSeconds(150),
+                        WaitUntil.the(TXT_PRICE, isVisible()).forNoMoreThan(150).seconds()
+                );
         }
     }
 

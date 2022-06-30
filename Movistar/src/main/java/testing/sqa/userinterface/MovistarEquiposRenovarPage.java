@@ -17,9 +17,11 @@ public class MovistarEquiposRenovarPage extends PageObject {
     public static final Target BTN_NOKIA_BRAND = Target.the("Button to choose nokia brand").locatedBy("//div[contains(@class,'link-marca cursor') and @data-marca-id='nokia']");
     public static final Target BTN_VIVO_BRAND = Target.the("button to choose vivo brand").locatedBy("//div[contains(@class,'link-marca cursor') and @data-marca-id='vivo']");
     public static final Target BTN_HUAWEI_BRAND = Target.the("Button to choose huawei brand").locatedBy("//div[contains(@class,'link-marca cursor') and @data-marca-id='huawei']");
+
     public static final Target TXT_PRICE = Target.the("precio del equipo").locatedBy("//section[@class='c-content-phone active']//p[@class='t-left c-phone__price color-darkBlue']//b");
     public static final Target TXT_PHONE_NAME = Target.the("nombre del equipo y capacidad").locatedBy("//section[@class='c-content-phone active']//p[@class='t-left c-phone__title color-darkBlue']");
-    public static final Target BTN_BUY_ONLINE = Target.the("boton para comprar en linea").locatedBy("//section[@class='c-content-phone active']//a[@class='buttom-dft c-phone__btn border t-center color-darkBlue bg-white js-GTMGlobal']");
+
+    public static final Target BTN_BUY_ONLINE = Target.the("boton para comprar en linea").locatedBy("//div[@class='c-phone__box js-scrollPhone sendOK']//a[@class='buttom-dft c-phone__btn border t-center color-darkBlue bg-white js-scrollClic js-GTMGlobal']");
     public static final Target TXT_E_SHOP_PRICE = Target.the("Precio en la eShop").locatedBy("//span[contains(@class,'row price text-newtitle text-center ng-binding text-gre')]");
 }
 

@@ -1,14 +1,8 @@
 package interactions;
 
-import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Tasks;
-import net.serenitybdd.screenplay.actions.JavaScriptClick;
-
-import java.util.List;
-
-import static userinterface.UserInterfacePage1.*;
 
 
 public class ReviewFirstStepPlans implements Interaction {

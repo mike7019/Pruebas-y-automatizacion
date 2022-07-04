@@ -207,8 +207,6 @@ Lsrc/main/java/testing/sqa/userinterface/MovistarPortabilidadPospagoPage.java,3
 asrc/test/java/testing/sqa/runners/weekendaccesoriesrunners/UserChecksWeekendAccesoriesRunner.java,8\7\874c883aa9af73a89cff947f03657f5f26f143a6
 ª
 zsrc/test/java/testing/sqa/stepdefinitions/weekendaccesoriesstepdefinitions/UserChecksWeekendAccesoriesStepDefinitions.java,6\7\67ebf9896a359f36372d7b480574617e90a4dcbc
-i
-9src/main/java/testing/sqa/interactions/SwitchToFrame.java,c\e\cecd7f240b825ea89644c9849359970e77c957c5
 b
 2src/main/java/testing/sqa/utils/ReadExcelData.java,5\8\583992d7f144d5a5d7aa2c29a010f75116838ec7
 ƒ

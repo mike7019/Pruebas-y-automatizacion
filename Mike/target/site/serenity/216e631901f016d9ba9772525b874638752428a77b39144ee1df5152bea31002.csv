@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Purchase an item on BangGood app","Recommend and purchasing an item on BangGood app","SUCCESS","2022-07-04T14:26:59.493-05:00[America/Bogota]","0.0","56.72"
+"Purchase a categorize item","Category and purchasing","SUCCESS","2022-07-04T14:27:56.667-05:00[America/Bogota]","0.0","64.69"
+"Purchase an item on the search bar","Searching and purchasing by SearchBar","SUCCESS","2022-07-04T14:29:01.544-05:00[America/Bogota]","0.0","43.86"
+"cleaning the shopping cart","going to home section to clean the carta","SUCCESS","2022-07-04T14:29:45.583-05:00[America/Bogota]","0.0","34.82"

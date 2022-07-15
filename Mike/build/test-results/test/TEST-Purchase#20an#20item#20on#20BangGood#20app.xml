@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Purchase an item on BangGood app" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-04T19:26:59" hostname="SQABOG-TGP4337" time="56.998">
+<testsuite name="Purchase an item on BangGood app" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-05T21:08:52" hostname="SQABOG-TGP4337" time="54.09">
   <properties/>
-  <testcase name="Recommend and purchasing an item on BangGood app" classname="Purchase an item on BangGood app" time="56.998"/>
+  <testcase name="Recommend and purchasing an item on BangGood app" classname="Purchase an item on BangGood app" time="54.09"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[jul 04, 2022 2:27:13 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+  <system-err><![CDATA[jul 05, 2022 4:09:05 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

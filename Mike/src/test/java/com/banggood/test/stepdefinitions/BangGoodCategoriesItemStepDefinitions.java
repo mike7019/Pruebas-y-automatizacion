@@ -23,7 +23,9 @@ public class BangGoodCategoriesItemStepDefinitions {
 
     @Before
     public void before() throws IOException {
+
         OnStage.setTheStage(new OnlineCast());
+
     }
 
     @Given("^That Brandon opens the app BangGood categories$")
@@ -46,8 +48,6 @@ public class BangGoodCategoriesItemStepDefinitions {
         OnStage.theActorInTheSpotlight().attemptsTo(RecordException.go());
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(WebElementQuestion.the(LBL_VALIDATION.of(items)), WebElementStateMatchers.containsText(ValidationHome.validation)));
 
-
     }
-
 
 }

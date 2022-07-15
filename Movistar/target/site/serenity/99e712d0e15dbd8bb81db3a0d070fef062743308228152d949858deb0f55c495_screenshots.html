@@ -129,7 +129,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-06-2022 13:04</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-07-2022 09:19</span>
     <br style="clear:left"/>
 </div>
 
@@ -170,9 +170,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Brandon opens the website and reviews the samsung lists on the equipos tab
+                                <span class="error-color">Brandon opens the website and reviews the samsung lists on the equipos tab
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -193,31 +193,68 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Index out of bounds exception: Index: 9, Size: 9</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.IndexOutOfBoundsException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>testing.sqa.interactions.ReviewThePhones.performAs(ReviewThePhones.java:45)<br />testing.sqa.stepdefinitions.phonesstepdefinitions.samsungstepdefinitions.SamsungPricesStepDefinitions.brandonVisualizeTheSamsungPriceOnTheEShopMatchesWithPriceCheckedOnThePrice(SamsungPricesStepDefinitions.java:45)<br />✽.Brandon visualize the Samsung price on the eShop matches with price checked on the price(src/test/resources/testing.sqa.features/phones.features/testphonessamsung/mobileSamsungPrices.feature:12)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource8056355860748497071.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="3ac7a2fc428d25703b9a6a7d5e8db906ac03855476e7876deaef60845c91715d.png" title=" Example: {name=samsung, mainWebSite=https://movistar.com.co, phoneWebSite=https://movistar.com.co/celulares?cell=samsung}" width="1366"/>
-                <img src="3ac7a2fc428d25703b9a6a7d5e8db906ac03855476e7876deaef60845c91715d.png" title=" Given that Brandon goes to https://movistar.com.co" width="1366"/>
-                <img src="3ac7a2fc428d25703b9a6a7d5e8db906ac03855476e7876deaef60845c91715d.png" title=" When Brandon clicks on https://movistar.com.co/celulares?cell=samsung validates the correct site, selects Samsung and clicks Online Purchase botton" width="1366"/>
-                <img src="3ac7a2fc428d25703b9a6a7d5e8db906ac03855476e7876deaef60845c91715d.png" title=" Brandon go to samsung phone page" width="1366"/>
-                <img src="3ac7a2fc428d25703b9a6a7d5e8db906ac03855476e7876deaef60845c91715d.png" title=" Brandon clicks on boton de menu de equipos" width="1366"/>
-                <img src="7bd00b43c67f0704238a92fe565be16a216bd8247754624233dbed60d6fc1073.png" title=" Brandon clicks on boton de menu de equipos" width="1366"/>
-                <img src="7bd00b43c67f0704238a92fe565be16a216bd8247754624233dbed60d6fc1073.png" title=" Brandon clicks on boton de menu de equipos (completed)" width="1366"/>
-                <img src="8fd878e93f2f8ea1190e1b48f99ab6536ead2e6b239ac9a0342bb14bb49c5541.png" title=" Brandon clicks on boton de sub-menu celulares" width="1366"/>
-                <img src="01fe3666929bb775efcc34795a6c3daf3b9f7798c9d2e64c6cea5c48433cdfee.png" title=" Brandon clicks on boton de sub-menu celulares" width="1366"/>
-                <img src="01fe3666929bb775efcc34795a6c3daf3b9f7798c9d2e64c6cea5c48433cdfee.png" title=" Brandon clicks on boton de sub-menu celulares (completed)" width="1366"/>
-                <img src="01fe3666929bb775efcc34795a6c3daf3b9f7798c9d2e64c6cea5c48433cdfee.png" title=" Brandon hold on for" width="1366"/>
-                <img src="01fe3666929bb775efcc34795a6c3daf3b9f7798c9d2e64c6cea5c48433cdfee.png" title=" Brandon hold on for (completed)" width="1366"/>
-                <img src="7229521e6186dac428b18d8596ccc0b8ee4fb383a7826aa4f4ab5caf8e661573.png" title=" Brandon clicks on button to choose samsung brand" width="1366"/>
-                <img src="4b3ec9e0bc1eb0400a81a0582b55f140bec35eedc11125ee97dd2474993e830a.png" title=" Brandon clicks on button to choose samsung brand (completed)" width="1366"/>
-                <img src="cd025775c497cee8e06e570806f475ebca99c8e0fd06e4624cf88e4807b67fd4.png" title=" Brandon should see a value that contains: &lt;[https://movistar.com.co/celulares?cell=samsung]&gt;" width="1366"/>
-                <img src="c1b557cf11c371a67e34261286627cb170c04e0854fa415428a88bae926c273b.png" title=" Brandon should see a value that contains: &lt;[https://movistar.com.co/celulares?cell=samsung]&gt; (completed)" width="1366"/>
-                <img src="c1b557cf11c371a67e34261286627cb170c04e0854fa415428a88bae926c273b.png" title=" Brandon go to samsung phone page (completed)" width="1366"/>
-                <img src="c1b557cf11c371a67e34261286627cb170c04e0854fa415428a88bae926c273b.png" title=" When Brandon clicks on https://movistar.com.co/celulares?cell=samsung validates the correct site, selects Samsung and clicks Online Purchase botton (completed)" width="1366"/>
-                <img src="c1b557cf11c371a67e34261286627cb170c04e0854fa415428a88bae926c273b.png" title=" Then Brandon visualize the Samsung price on the eShop matches with price checked on the price" width="1366"/>
-                <img src="c1b557cf11c371a67e34261286627cb170c04e0854fa415428a88bae926c273b.png" title=" Brandon review the phones" width="1366"/>
-                <img src="c1b557cf11c371a67e34261286627cb170c04e0854fa415428a88bae926c273b.png" title=" Brandon review the phones (completed)" width="1366"/>
-                <img src="c1b557cf11c371a67e34261286627cb170c04e0854fa415428a88bae926c273b.png" title=" Then Brandon visualize the Samsung price on the eShop matches with price checked on the price (completed)" width="1366"/>
-                <img src="c1b557cf11c371a67e34261286627cb170c04e0854fa415428a88bae926c273b.png" title=" Example: {name=samsung, mainWebSite=https://movistar.com.co, phoneWebSite=https://movistar.com.co/celulares?cell=samsung} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="e732b5f3384f41f84495559ce71d67714e6c6f97f41ad8b040256446588d128c.png" title=" Example: {name=samsung, mainWebSite=https://movistar.com.co, phoneWebSite=https://movistar.com.co/celulares?cell=samsung}" width="1366"/>
+                <img src="e732b5f3384f41f84495559ce71d67714e6c6f97f41ad8b040256446588d128c.png" title=" Given that Brandon goes to https://movistar.com.co" width="1366"/>
+                <img src="e732b5f3384f41f84495559ce71d67714e6c6f97f41ad8b040256446588d128c.png" title=" When Brandon clicks on https://movistar.com.co/celulares?cell=samsung validates the correct site, selects Samsung and clicks Online Purchase botton" width="1366"/>
+                <img src="1b83f80d119e9dee4b4ba5b96dbd3e2f787c1998bdb0242ead29f922e528c03b.png" title=" Brandon go to samsung phone page" width="1366"/>
+                <img src="fcff814ee806f1248f2cb0fd770b261ba26e6b01e6e998e145bd8a5e3fcdd262.png" title=" Brandon clicks on boton de menu de equipos" width="1366"/>
+                <img src="b1c3eb101487a5301bd247fd44bff98194b71ff6d826c8bb3b5f06898b0f45f1.png" title=" Brandon clicks on boton de menu de equipos" width="1366"/>
+                <img src="b1c3eb101487a5301bd247fd44bff98194b71ff6d826c8bb3b5f06898b0f45f1.png" title=" Brandon clicks on boton de menu de equipos (completed)" width="1366"/>
+                <img src="1e5d14df1133f36ac00e3531d9b07edcf6850ae00eaf7f9354241b749ca6bfac.png" title=" Brandon clicks on boton de sub-menu celulares" width="1366"/>
+                <img src="32488546491169e4ddbb65008e3c0054c06e1c6216e33cd8a6128482b371466f.png" title=" Brandon clicks on boton de sub-menu celulares" width="1366"/>
+                <img src="32488546491169e4ddbb65008e3c0054c06e1c6216e33cd8a6128482b371466f.png" title=" Brandon clicks on boton de sub-menu celulares (completed)" width="1366"/>
+                <img src="32488546491169e4ddbb65008e3c0054c06e1c6216e33cd8a6128482b371466f.png" title=" Brandon hold on for" width="1366"/>
+                <img src="32488546491169e4ddbb65008e3c0054c06e1c6216e33cd8a6128482b371466f.png" title=" Brandon hold on for (completed)" width="1366"/>
+                <img src="4a93309bedac169ec1ab170b252c40f54452e4e3b47545ecb26305f2d6aa4e08.png" title=" Brandon clicks on button to choose samsung brand" width="1366"/>
+                <img src="2ef14fa81d4c67267ca1704e5a318c1397e1fb938139f288499e841ef9d4ed22.png" title=" Brandon clicks on button to choose samsung brand (completed)" width="1366"/>
+                <img src="2ef14fa81d4c67267ca1704e5a318c1397e1fb938139f288499e841ef9d4ed22.png" title=" Brandon should see a value that contains: &lt;[https://movistar.com.co/celulares?cell=samsung]&gt;" width="1366"/>
+                <img src="80a05645a973667b600c3f80b7581757e41b2cc8d5792a9bfab6bbf91ee6e075.png" title=" Brandon should see a value that contains: &lt;[https://movistar.com.co/celulares?cell=samsung]&gt; (completed)" width="1366"/>
+                <img src="80a05645a973667b600c3f80b7581757e41b2cc8d5792a9bfab6bbf91ee6e075.png" title=" Brandon go to samsung phone page (completed)" width="1366"/>
+                <img src="80a05645a973667b600c3f80b7581757e41b2cc8d5792a9bfab6bbf91ee6e075.png" title=" When Brandon clicks on https://movistar.com.co/celulares?cell=samsung validates the correct site, selects Samsung and clicks Online Purchase botton (completed)" width="1366"/>
+                <img src="37274ba610a7ce0932c48f1fe33f7dd38eb1a38e4a004ab4642d293a8fa3e307.png" title=" Then Brandon visualize the Samsung price on the eShop matches with price checked on the price" width="1366"/>
+                <img src="37274ba610a7ce0932c48f1fe33f7dd38eb1a38e4a004ab4642d293a8fa3e307.png" title=" Brandon review the phones" width="1366"/>
+                <img src="37274ba610a7ce0932c48f1fe33f7dd38eb1a38e4a004ab4642d293a8fa3e307.png" title=" Brandon review the phones (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

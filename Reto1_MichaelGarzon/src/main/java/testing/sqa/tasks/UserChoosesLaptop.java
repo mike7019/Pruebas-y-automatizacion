@@ -8,6 +8,7 @@ import net.serenitybdd.screenplay.ensure.Ensure;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import testing.sqa.interactions.ChooseListThird;
 import testing.sqa.interactions.HoldOnFor;
+import testing.sqa.interactions.ScrollTo;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static testing.sqa.userinterface.AdvantageLaptopPage.*;
@@ -42,11 +43,13 @@ public class UserChoosesLaptop implements Task {
 
         actor.attemptsTo(
                 Ensure.that(BTN_USER_LINK).isDisplayed(),
-                WaitUntil.the(BTN_LAPTOP, isVisible()).forNoMoreThan(10).seconds(),
+                WaitUntil.the(BTN_LAPTOP, isVisible()).forNoMoreThan(80).seconds(),
                 Click.on(BTN_LAPTOP),
+                WaitUntil.the(BTN_THIRD_LAPTOP, isVisible()).forNoMoreThan(80).seconds(),
+                ScrollTo.to(),
                 ChooseListThird.on(),
                 Click.on(BTN_CARTLOAD),
-                WaitUntil.the(BTN_CHECKOUT, isVisible()).forNoMoreThan(3).seconds(),
+                WaitUntil.the(BTN_CHECKOUT, isVisible()).forNoMoreThan(80).seconds(),
                 Click.on(BTN_CHECKOUT),
                 HoldOnFor.thisSeconds(3)
 

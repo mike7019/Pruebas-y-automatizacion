@@ -13,6 +13,8 @@ import static com.banggood.automation.AppiumDriver.ui.BangGoodUISecondTestUI.BTN
 
 public class CartHome implements Interaction {
 
+
+
     @Override
     public <T extends Actor> void performAs(T actor) {
 

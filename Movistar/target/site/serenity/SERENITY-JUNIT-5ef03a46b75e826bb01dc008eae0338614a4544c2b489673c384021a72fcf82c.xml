@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Review on the Motorola module" skipped="0" tests="1" time="128.42" timestamp="2022-06-26 12:51:05"><testcase name="Brandon opens the website and reviews the motorola lists on the equipos tab"><failure message="&#10;Expecting precio del equipo with text value that is equal to: &lt;&quot;$1.499.909&quot;&gt;&#10;But got.....................................................: &lt;&quot;$3.699.909&quot;&gt;" type="java.lang.AssertionError">
-Expecting precio del equipo with text value that is equal to: &lt;"$1.499.909"&gt;
-But got.....................................................: &lt;"$3.699.909"&gt;</failure><system-err>
-Expecting precio del equipo with text value that is equal to: &lt;"$1.499.909"&gt;
-But got.....................................................: &lt;"$3.699.909"&gt;&#13;
-testing.sqa.interactions.ReviewThePhones.performAs(ReviewThePhones.java:51)&#13;
-testing.sqa.stepdefinitions.phonesstepdefinitions.motorolastepdefinitions.MotorolaPricesStepDefinitions.brandonVisualizeTheMotorolaPriceOnTheEShopMatchesWithPriceCheckedOnThePrice(MotorolaPricesStepDefinitions.java:45)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Review on the Motorola module" skipped="0" tests="1" time="29.41" timestamp="2022-07-06 09:40:41"><testcase name="Brandon opens the website and reviews the motorola lists on the equipos tab"/></testsuite>

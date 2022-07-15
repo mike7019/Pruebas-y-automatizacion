@@ -17,8 +17,8 @@ public class RecomendedItemPurchase implements Task {
 
 
         actor.attemptsTo(
-                ExplicitWait.here(),
-                WaitUntil.the(BTN_NEW_USER_BENEFICTS, isVisible()).forNoMoreThan(10).seconds(),
+                ExplicitWait.here(3),
+//                WaitUntil.the(BTN_NEW_USER_BENEFICTS, isVisible()).forNoMoreThan(10).seconds(),
                 Click.on(BTN_NEW_USER_BENEFICTS),
                 WaitUntil.the(BTN_SCREWERS, isVisible()).forNoMoreThan(30).seconds(),
                 Click.on(BTN_SCREWERS),

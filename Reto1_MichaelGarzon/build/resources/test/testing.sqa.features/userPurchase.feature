@@ -7,7 +7,7 @@ Feature: Brandon purchase a laptop test
     Given That Brandon logs in successfully and purchased a new laptop
 
     When Brandon logins on the web site with the following information
-      | user     | password    |
+      | user        | password    |
       | Liliana7129 | Deutsch7019 |
 
   Scenario Outline: <scene>
@@ -19,7 +19,7 @@ Feature: Brandon purchase a laptop test
     Then Brandon visualizes the correct laptop was successfully choose and shows the laptop name <laptop>
 
     Examples:
-      | scene           | laptop              | user     |
+      | scene           | laptop              | user        |
       | Purchase laptop | HP ENVY - 17T TOUCH | Liliana7129 |
 
 

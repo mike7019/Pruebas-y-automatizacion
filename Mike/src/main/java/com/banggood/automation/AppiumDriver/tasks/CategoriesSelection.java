@@ -20,7 +20,7 @@ public class CategoriesSelection implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
-                ExplicitWait.here(),
+                ExplicitWait.here(3),
                 WaitUntil.the(BTN_CATEGORIES, isVisible()).forNoMoreThan(120).seconds(),
                 Click.on(BTN_CATEGORIES),
                 Click.on(BTN_ELECTRIC_TOOLS),

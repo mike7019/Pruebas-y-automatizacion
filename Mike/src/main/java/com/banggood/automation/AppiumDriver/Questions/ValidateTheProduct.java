@@ -10,7 +10,9 @@ public class ValidateTheProduct implements Question<String> {
 
     @Override
     public String answeredBy(Actor actor) {
+
         return BangGoodFisrtTestUI.TXT_SCREWERS_VALIDATION.resolveFor(actor).getText();
+
     }
 
     public static Question<String> value() {

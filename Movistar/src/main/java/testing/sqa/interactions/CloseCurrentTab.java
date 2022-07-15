@@ -11,8 +11,6 @@ public class CloseCurrentTab implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-
-
         BrowseTheWeb.as(actor).getDriver().close();
 
     }

@@ -7,8 +7,8 @@ Feature: Purchase an item on the search bar
 
     When  Brandon selects inflating bump item
 
-    Then Validation home <items>
+    Then He sees the <items> word after choosing the element
 
     Examples:
-      | items  |
-      | Hot |
+      | items |
+      | Hot   |

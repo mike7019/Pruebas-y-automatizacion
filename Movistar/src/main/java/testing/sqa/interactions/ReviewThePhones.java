@@ -38,13 +38,16 @@ public class ReviewThePhones implements Interaction {
             List<WebElementFacade> buyOnline = MovistarEquiposRenovarPage.BTN_BUY_ONLINE.resolveAllFor(actor);
             List<WebElementFacade> currentName = MovistarEquiposRenovarPage.TXT_PHONE_NAME.resolveAllFor(actor);
             List<WebElementFacade> phonePrecio = MovistarEquiposRenovarPage.TXT_PRICE.resolveAllFor(actor);
+            List<WebElementFacade> normalprice = MovistarEquiposRenovarPage.TXT_NORMAL_PRICE.resolveAllFor(actor);
 
-            String currentPrice = phonePrecio.get(i).getText();
+//            String currentPrice = phonePrecio.get(i).getText();
             String currName = currentName.get(i).getText();
+            String currNormal = normalprice.get(i).getText();
 
 //            System.out.println("..........." + i + "..............");
-            System.out.print(currName);
+            System.out.println("" +currName);
             System.out.println(" "+currentPrice);
+            System.out.print(" "+currNormal);
 //            System.out.println("..............................");
 
 

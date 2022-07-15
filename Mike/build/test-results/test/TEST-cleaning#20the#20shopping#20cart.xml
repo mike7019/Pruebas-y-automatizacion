@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cleaning the shopping cart" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-04T19:29:45" hostname="SQABOG-TGP4337" time="35.694">
+<testsuite name="cleaning the shopping cart" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-05T21:11:21" hostname="SQABOG-TGP4337" time="34.585">
   <properties/>
-  <testcase name="going to home section to clean the carta" classname="cleaning the shopping cart" time="35.694"/>
+  <testcase name="going to home section to clean the carta" classname="cleaning the shopping cart" time="34.585"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] WARN net.serenitybdd.core.photography.PhotoSession - Failed to take screenshot
 org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SQABOG-TGP4337', ip: '192.168.18.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+System info: host: 'SQABOG-TGP4337', ip: '192.168.18.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -80,7 +80,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-jul 04, 2022 2:29:56 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+jul 05, 2022 4:11:31 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

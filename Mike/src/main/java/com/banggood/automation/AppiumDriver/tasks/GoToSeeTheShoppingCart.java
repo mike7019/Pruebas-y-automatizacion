@@ -17,7 +17,7 @@ public class GoToSeeTheShoppingCart implements Task {
 
 
         actor.attemptsTo(
-                ExplicitWait.here(),
+                ExplicitWait.here(3),
                 CartHome.on(),
                 Click.on(BTN_DELETE_DUMP),
                 Click.on(BTN_DELETE_ALL)

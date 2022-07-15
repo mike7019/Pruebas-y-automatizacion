@@ -47,8 +47,7 @@ public class userPurchaseStepDefinitions {
     public void brandonVisualizesTheCorrectLaptopWasSuccessfullyChooseAndShowsTheLaptopNameHPENVYTTOUCH(String laptop) {
         //here the actor validates the laptop listed on the website it´s the chosen at the beginning
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(WebElementQuestion.the(LBL_LAPTOP), WebElementStateMatchers.containsText(laptop)));
-
-        Ensure.that(LBL_LAPTOP).text().isEqualTo(laptop);
+//        Ensure.that(LBL_LAPTOP).text().isEqualTo(laptop);
     }
 
 }

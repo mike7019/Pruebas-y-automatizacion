@@ -4,7 +4,7 @@
   <system-out><![CDATA[
 4 Scenarios (?[32m4 passed?[0m)
 12 Steps (?[32m12 passed?[0m)
-3m22,186s
+3m3,478s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
@@ -51,7 +51,7 @@ TEST STARTED: Category and purchasing
 [Test worker] WARN net.serenitybdd.core.photography.PhotoSession - Failed to take screenshot
 org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SQABOG-TGP4337', ip: '192.168.18.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+System info: host: 'SQABOG-TGP4337', ip: '192.168.18.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
@@ -141,7 +141,7 @@ TEST STARTED: Searching and purchasing by SearchBar
 [Test worker] WARN net.serenitybdd.core.photography.PhotoSession - Failed to take screenshot
 org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SQABOG-TGP4337', ip: '192.168.18.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+System info: host: 'SQABOG-TGP4337', ip: '192.168.18.146', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)

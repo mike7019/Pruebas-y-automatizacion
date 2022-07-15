@@ -16,7 +16,7 @@ public class ClearsTheCart implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
-                ExplicitWait.here(),
+                ExplicitWait.here(3),
                 SelectFirstArticle.on()
         );
 

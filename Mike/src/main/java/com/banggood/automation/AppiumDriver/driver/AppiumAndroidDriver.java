@@ -11,6 +11,8 @@ public class AppiumAndroidDriver {
 
     public static AppiumDriver<MobileElement> driver;
 
+
+
     public static AppiumAndroidDriver yourBrowser(){
         try {
             DesiredCapabilities capabilities = new DesiredCapabilities();

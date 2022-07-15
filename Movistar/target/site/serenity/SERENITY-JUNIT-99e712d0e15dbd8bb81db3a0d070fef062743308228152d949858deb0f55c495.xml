@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Review on the Samsung module" skipped="0" tests="1" time="69.33" timestamp="2022-06-22 01:04:37"><testcase name="Brandon opens the website and reviews the samsung lists on the equipos tab"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Review on the Samsung module" skipped="0" tests="1" time="28.54" timestamp="2022-07-06 09:19:43"><testcase name="Brandon opens the website and reviews the samsung lists on the equipos tab"><error message="Index: 9, Size: 9" type="java.lang.IndexOutOfBoundsException">Index: 9, Size: 9</error><system-err>Index: 9, Size: 9&#13;
+testing.sqa.interactions.ReviewThePhones.performAs(ReviewThePhones.java:45)&#13;
+testing.sqa.stepdefinitions.phonesstepdefinitions.samsungstepdefinitions.SamsungPricesStepDefinitions.brandonVisualizeTheSamsungPriceOnTheEShopMatchesWithPriceCheckedOnThePrice(SamsungPricesStepDefinitions.java:45)&#13;
+✽.Brandon visualize the Samsung price on the eShop matches with price checked on the price(src/test/resources/testing.sqa.features/phones.features/testphonessamsung/mobileSamsungPrices.feature:12)&#13;
+</system-err></testcase></testsuite>

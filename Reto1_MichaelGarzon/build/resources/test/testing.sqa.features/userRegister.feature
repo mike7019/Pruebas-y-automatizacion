@@ -14,7 +14,8 @@ Feature: Register on the website test
     Then Brandon validates the registry was successfully done showing the user name displayed as <user>
 
     Examples:
-      | user      | email               | password    | confPass    | webSite                                    |
-      | Liliana7465 | Liliana6877@gmail.com | Deutsch7019 | Deutsch7019 | https://www.advantageonlineshopping.com/#/ |
+      | user       | email               | password    | confPass    | webSite                                    |
+      | jose123122 | jose11223@gmail.com | Deutsch7019 | Deutsch7019 | https://www.advantageonlineshopping.com/#/ |
+
 
 

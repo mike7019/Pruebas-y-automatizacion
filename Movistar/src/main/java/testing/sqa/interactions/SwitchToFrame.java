@@ -13,6 +13,7 @@ public class SwitchToFrame implements Interaction {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
+
         Set<String> handles = BrowseTheWeb.as(actor).getDriver().getWindowHandles();
         Iterator<String> itr = handles.iterator();
         Object firstHandle = itr.next();

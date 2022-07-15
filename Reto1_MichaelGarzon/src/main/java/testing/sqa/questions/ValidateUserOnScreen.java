@@ -16,4 +16,6 @@ public class ValidateUserOnScreen implements Question<String> {
     public static Question<String> value() {
         return new ValidateUserOnScreen();
     }
+
+
 }

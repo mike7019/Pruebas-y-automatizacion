@@ -22,8 +22,6 @@ public class UserMakesRegistration implements Task {
     private String password;
     private String confPass;
 
-
-
     @Override
     public <T extends Actor> void performAs(T actor) {
 
@@ -33,10 +31,10 @@ public class UserMakesRegistration implements Task {
                Enter.theValue(email).into(EMAIL_INPUT),
                Enter.theValue(password).into(PASSWORD_INPUT),
                Enter.theValue(confPass).into(CONFIRM_PASSWORD_INPUT),
-               HoldOnFor.thisSeconds(3),
+               HoldOnFor.thisSeconds(5),
                Click.on(CHK_BUTTON),
                Click.on(BTN_REGISTER_LINK),
-               WaitUntil.the(LBL_USERNAME_LOGGED, isVisible()).forNoMoreThan(3).seconds()
+               WaitUntil.the(LBL_USERNAME_LOGGED, isVisible()).forNoMoreThan(80).seconds()
        );
     }
 

@@ -32,7 +32,7 @@ public class UserLoginngIn implements Task {
                 Enter.theValue(username).into(TXT_USERNAME),
                 Enter.theValue(pass).into(TXT_PASSWORD),
                 Hit.the(Keys.ENTER).keyIn(BTN_LOGIN),
-                WaitUntil.the(LBL_USERNAME_LOGGED, isVisible()).forNoMoreThan(3).seconds()
+                WaitUntil.the(LBL_USERNAME_LOGGED, isVisible()).forNoMoreThan(80).seconds()
         );
 
     }

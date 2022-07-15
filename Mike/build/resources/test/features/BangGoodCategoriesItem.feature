@@ -7,8 +7,8 @@ Feature: Purchase a categorize item
 
     When  Brandon selects a category and goes to electric saw to purchase
 
-    Then  Validate sees on the cart list <items>
+    Then  Validates the <items> on the cart list
 
     Examples:
-      | items        |
-      | Hot |
+      | items |
+      | Hot   |
